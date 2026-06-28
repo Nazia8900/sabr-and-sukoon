@@ -1,0 +1,1382 @@
+[
+  {
+    "slug": "islamic-psychology",
+    "name": "Islamic psychology",
+    "count": 17
+  },
+  {
+    "slug": "islamic-wellness",
+    "name": "Islamic Wellness",
+    "count": 15
+  },
+  {
+    "slug": "tawakkul",
+    "name": "tawakkul",
+    "count": 11
+  },
+  {
+    "slug": "sabr",
+    "name": "Sabr",
+    "count": 8
+  },
+  {
+    "slug": "islamic-motivation",
+    "name": "Islamic Motivation",
+    "count": 8
+  },
+  {
+    "slug": "faith",
+    "name": "faith",
+    "count": 7
+  },
+  {
+    "slug": "sunnah",
+    "name": "Sunnah",
+    "count": 6
+  },
+  {
+    "slug": "muslim-women",
+    "name": "Muslim women",
+    "count": 6
+  },
+  {
+    "slug": "mental-health",
+    "name": "Mental Health",
+    "count": 6
+  },
+  {
+    "slug": "islamic-healing",
+    "name": "Islamic healing",
+    "count": 6
+  },
+  {
+    "slug": "heartbreak",
+    "name": "heartbreak",
+    "count": 6
+  },
+  {
+    "slug": "sabr-and-sukoon",
+    "name": "Sabr and Sukoon",
+    "count": 6
+  },
+  {
+    "slug": "quran",
+    "name": "Quran",
+    "count": 6
+  },
+  {
+    "slug": "depression",
+    "name": "depression",
+    "count": 5
+  },
+  {
+    "slug": "muslim-women-mental-health",
+    "name": "Muslim women mental health",
+    "count": 5
+  },
+  {
+    "slug": "inner-peace",
+    "name": "Inner Peace",
+    "count": 5
+  },
+  {
+    "slug": "muslim-mental-health",
+    "name": "Muslim Mental Health",
+    "count": 5
+  },
+  {
+    "slug": "inner-peace-islam",
+    "name": "Inner peace Islam",
+    "count": 5
+  },
+  {
+    "slug": "motivation",
+    "name": "motivation",
+    "count": 5
+  },
+  {
+    "slug": "trust-in-allah",
+    "name": "trust in Allah",
+    "count": 5
+  },
+  {
+    "slug": "hadith",
+    "name": "Hadith",
+    "count": 5
+  },
+  {
+    "slug": "overthinking",
+    "name": "Overthinking",
+    "count": 4
+  },
+  {
+    "slug": "spiritual-healing",
+    "name": "Spiritual Healing",
+    "count": 4
+  },
+  {
+    "slug": "emotional-healing",
+    "name": "emotional healing",
+    "count": 4
+  },
+  {
+    "slug": "faith-healing",
+    "name": "faith healing",
+    "count": 4
+  },
+  {
+    "slug": "dua",
+    "name": "Dua",
+    "count": 4
+  },
+  {
+    "slug": "rizq",
+    "name": "Rizq",
+    "count": 4
+  },
+  {
+    "slug": "islamic-blog",
+    "name": "Islamic blog",
+    "count": 4
+  },
+  {
+    "slug": "islamicmotivation",
+    "name": "IslamicMotivation",
+    "count": 4
+  },
+  {
+    "slug": "sukoon",
+    "name": "Sukoon",
+    "count": 4
+  },
+  {
+    "slug": "duas",
+    "name": "duas",
+    "count": 4
+  },
+  {
+    "slug": "friends-left-me",
+    "name": "friends left me",
+    "count": 4
+  },
+  {
+    "slug": "healing",
+    "name": "healing",
+    "count": 4
+  },
+  {
+    "slug": "islamic-spirituality",
+    "name": "Islamic Spirituality",
+    "count": 3
+  },
+  {
+    "slug": "mindful-living",
+    "name": "Mindful Living",
+    "count": 3
+  },
+  {
+    "slug": "barakah",
+    "name": "Barakah",
+    "count": 3
+  },
+  {
+    "slug": "patience-in-islam",
+    "name": "Patience in Islam",
+    "count": 3
+  },
+  {
+    "slug": "islam",
+    "name": "Islam",
+    "count": 3
+  },
+  {
+    "slug": "duas-for-peace",
+    "name": "duas for peace",
+    "count": 3
+  },
+  {
+    "slug": "allah-ki-rehmat",
+    "name": "Allah ki rehmat",
+    "count": 3
+  },
+  {
+    "slug": "burnout-recovery",
+    "name": "Burnout Recovery",
+    "count": 2
+  },
+  {
+    "slug": "one-ayah-series",
+    "name": "One Ayah Series",
+    "count": 2
+  },
+  {
+    "slug": "quranic-healing",
+    "name": "Quranic Healing",
+    "count": 2
+  },
+  {
+    "slug": "faith-and-spirituality",
+    "name": "Faith and Spirituality",
+    "count": 2
+  },
+  {
+    "slug": "spiritual-growth",
+    "name": "Spiritual Growth",
+    "count": 2
+  },
+  {
+    "slug": "women-and-mental-health",
+    "name": "women and mental health",
+    "count": 2
+  },
+  {
+    "slug": "self-worth",
+    "name": "self-worth",
+    "count": 2
+  },
+  {
+    "slug": "mental-wellbeing",
+    "name": "Mental Wellbeing",
+    "count": 2
+  },
+  {
+    "slug": "faith-based-healing",
+    "name": "Faith Based Healing",
+    "count": 2
+  },
+  {
+    "slug": "dhul-hijjah",
+    "name": "Dhul Hijjah",
+    "count": 2
+  },
+  {
+    "slug": "faith-and-trials",
+    "name": "Faith And Trials",
+    "count": 2
+  },
+  {
+    "slug": "prophetic-wisdom",
+    "name": "Prophetic Wisdom",
+    "count": 2
+  },
+  {
+    "slug": "spiritual-wellness",
+    "name": "Spiritual Wellness",
+    "count": 2
+  },
+  {
+    "slug": "istighfar",
+    "name": "Istighfar",
+    "count": 2
+  },
+  {
+    "slug": "sabr-in-hard-times",
+    "name": "sabr in hard times",
+    "count": 2
+  },
+  {
+    "slug": "zehni-sukoon",
+    "name": "zehni sukoon",
+    "count": 2
+  },
+  {
+    "slug": "peace-of-mind",
+    "name": "Peace of Mind",
+    "count": 2
+  },
+  {
+    "slug": "faith-and-science",
+    "name": "Faith and Science",
+    "count": 2
+  },
+  {
+    "slug": "quran-reflection",
+    "name": "Quran Reflection",
+    "count": 2
+  },
+  {
+    "slug": "dopamine",
+    "name": "Dopamine",
+    "count": 2
+  },
+  {
+    "slug": "social-media-addiction",
+    "name": "Social Media Addiction",
+    "count": 2
+  },
+  {
+    "slug": "character-building",
+    "name": "Character Building",
+    "count": 2
+  },
+  {
+    "slug": "islamic-reminders",
+    "name": "Islamic reminders",
+    "count": 2
+  },
+  {
+    "slug": "",
+    "name": "دین اور دنیا کا توازن",
+    "count": 2
+  },
+  {
+    "slug": "gratitude-in-islam",
+    "name": "Gratitude in Islam",
+    "count": 2
+  },
+  {
+    "slug": "sabr-and-shukr",
+    "name": "Sabr and Shukr",
+    "count": 2
+  },
+  {
+    "slug": "quranquotes",
+    "name": "QuranQuotes",
+    "count": 2
+  },
+  {
+    "slug": "duas-for-pain",
+    "name": "duas for pain",
+    "count": 2
+  },
+  {
+    "slug": "inner-peace-through-quran",
+    "name": "inner peace through Quran",
+    "count": 2
+  },
+  {
+    "slug": "islamic-healing-for-heartbreak",
+    "name": "islamic healing for heartbreak",
+    "count": 2
+  },
+  {
+    "slug": "fasting",
+    "name": "Fasting",
+    "count": 1
+  },
+  {
+    "slug": "hadith-reflections",
+    "name": "Hadith Reflections",
+    "count": 1
+  },
+  {
+    "slug": "monday-thursday",
+    "name": "Monday Thursday",
+    "count": 1
+  },
+  {
+    "slug": "spiritual-habits",
+    "name": "Spiritual Habits",
+    "count": 1
+  },
+  {
+    "slug": "faith-and-healing",
+    "name": "Faith and Healing",
+    "count": 1
+  },
+  {
+    "slug": "mental-health-in-islam",
+    "name": "Mental Health in Islam",
+    "count": 1
+  },
+  {
+    "slug": "surah-al-baqarah",
+    "name": "Surah Al-Baqarah",
+    "count": 1
+  },
+  {
+    "slug": "quran-and-healing",
+    "name": "Quran and Healing",
+    "count": 1
+  },
+  {
+    "slug": "surah-ad-duha",
+    "name": "Surah Ad-Duha",
+    "count": 1
+  },
+  {
+    "slug": "mindset-shift",
+    "name": "Mindset Shift",
+    "count": 1
+  },
+  {
+    "slug": "quranic-psychology",
+    "name": "Quranic Psychology",
+    "count": 1
+  },
+  {
+    "slug": "the-ayat-series",
+    "name": "The Ayat Series",
+    "count": 1
+  },
+  {
+    "slug": "al-kasal",
+    "name": "Al-Kasal",
+    "count": 1
+  },
+  {
+    "slug": "faith-based-wellness",
+    "name": "Faith-Based Wellness",
+    "count": 1
+  },
+  {
+    "slug": "mindful-muslimah",
+    "name": "Mindful Muslimah",
+    "count": 1
+  },
+  {
+    "slug": "self-discipline",
+    "name": "Self-Discipline",
+    "count": 1
+  },
+  {
+    "slug": "spiritual-productivity",
+    "name": "Spiritual Productivity",
+    "count": 1
+  },
+  {
+    "slug": "al-jabbar-meaning-for-healing",
+    "name": "Al-Jabbar meaning for healing",
+    "count": 1
+  },
+  {
+    "slug": "faith-based-trauma-recovery",
+    "name": "faith-based trauma recovery",
+    "count": 1
+  },
+  {
+    "slug": "how-to-heal-a-broken-heart-in-islam",
+    "name": "how to heal a broken heart in Islam",
+    "count": 1
+  },
+  {
+    "slug": "islamic-psychology-emotional-trauma",
+    "name": "Islamic psychology emotional trauma",
+    "count": 1
+  },
+  {
+    "slug": "post-traumatic-growth-islam",
+    "name": "post-traumatic growth Islam.",
+    "count": 1
+  },
+  {
+    "slug": "self-worth-after-heartbreak-islam",
+    "name": "self-worth after heartbreak Islam",
+    "count": 1
+  },
+  {
+    "slug": "motherhood-islam",
+    "name": "Motherhood Islam",
+    "count": 1
+  },
+  {
+    "slug": "postpartum-depression",
+    "name": "Postpartum Depression",
+    "count": 1
+  },
+  {
+    "slug": "toxic-relationships-islam",
+    "name": "toxic relationships Islam",
+    "count": 1
+  },
+  {
+    "slug": "diaspora-muslims",
+    "name": "Diaspora Muslims",
+    "count": 1
+  },
+  {
+    "slug": "prophetic-lifestyle",
+    "name": "Prophetic Lifestyle",
+    "count": 1
+  },
+  {
+    "slug": "fajr",
+    "name": "Fajr",
+    "count": 1
+  },
+  {
+    "slug": "islamic-psychology-dhikr",
+    "name": "Islamic Psychology\nDhikr",
+    "count": 1
+  },
+  {
+    "slug": "islamicwellness",
+    "name": "IslamicWellness",
+    "count": 1
+  },
+  {
+    "slug": "morning-anxiety",
+    "name": "Morning Anxiety",
+    "count": 1
+  },
+  {
+    "slug": "morning-routine-islam",
+    "name": "Morning Routine Islam",
+    "count": 1
+  },
+  {
+    "slug": "propheticwisdom",
+    "name": "PropheticWisdom",
+    "count": 1
+  },
+  {
+    "slug": "tahajjud",
+    "name": "Tahajjud",
+    "count": 1
+  },
+  {
+    "slug": "day-of-arafah",
+    "name": "Day of Arafah",
+    "count": 1
+  },
+  {
+    "slug": "eid-ul-azha-hajj",
+    "name": "Eid ul Azha\nHajj",
+    "count": 1
+  },
+  {
+    "slug": "fasting-islam",
+    "name": "Fasting Islam",
+    "count": 1
+  },
+  {
+    "slug": "muslim-wellness-tawbah",
+    "name": "Muslim Wellness\nTawbah",
+    "count": 1
+  },
+  {
+    "slug": "muslim-wellness",
+    "name": "Muslim Wellness",
+    "count": 1
+  },
+  {
+    "slug": "reflections",
+    "name": "Reflections",
+    "count": 1
+  },
+  {
+    "slug": "hazarat-ismail-a-s",
+    "name": "Hazarat Ismail A. S",
+    "count": 1
+  },
+  {
+    "slug": "hazrat-ibrahim-as",
+    "name": "Hazrat Ibrahim A.S",
+    "count": 1
+  },
+  {
+    "slug": "poisoning-relation",
+    "name": "poisoning relation",
+    "count": 1
+  },
+  {
+    "slug": "sacrifice-of-the-egos",
+    "name": "Sacrifice of the Ego's",
+    "count": 1
+  },
+  {
+    "slug": "takbeer",
+    "name": "takbeer",
+    "count": 1
+  },
+  {
+    "slug": "comfort-sabr-in-hardship",
+    "name": "Comfort\nSabr in Hardship",
+    "count": 1
+  },
+  {
+    "slug": "eid-grief-islamic",
+    "name": "Eid Grief\nIslamic",
+    "count": 1
+  },
+  {
+    "slug": "eid-ul-azha",
+    "name": "Eid ul Azha",
+    "count": 1
+  },
+  {
+    "slug": "hajj",
+    "name": "Hajj",
+    "count": 1
+  },
+  {
+    "slug": "hajr-e-aswad",
+    "name": "Hajr e Aswad",
+    "count": 1
+  },
+  {
+    "slug": "muslimwellness",
+    "name": "MuslimWellness",
+    "count": 1
+  },
+  {
+    "slug": "pillarsofhajj",
+    "name": "PillarsofHajj",
+    "count": 1
+  },
+  {
+    "slug": "spiritualjourney",
+    "name": "SpiritualJourney",
+    "count": 1
+  },
+  {
+    "slug": "tawaf",
+    "name": "Tawaf",
+    "count": 1
+  },
+  {
+    "slug": "zamzam",
+    "name": "Zamzam",
+    "count": 1
+  },
+  {
+    "slug": "mindfulliving",
+    "name": "MindfulLiving",
+    "count": 1
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "count": 1
+  },
+  {
+    "slug": "quran-and-life",
+    "name": "Quran and Life",
+    "count": 1
+  },
+  {
+    "slug": "sunday-routine",
+    "name": "Sunday Routine",
+    "count": 1
+  },
+  {
+    "slug": "usa-muslims",
+    "name": "USA Muslims",
+    "count": 1
+  },
+  {
+    "slug": "aesthetic-wellness",
+    "name": "Aesthetic Wellness",
+    "count": 1
+  },
+  {
+    "slug": "hustle-culture-burnout",
+    "name": "​Hustle Culture Burnout",
+    "count": 1
+  },
+  {
+    "slug": "sunnah-lifestyle-stress-management",
+    "name": "​Sunnah Lifestyle\n​Stress Management",
+    "count": 1
+  },
+  {
+    "slug": "allahs-love",
+    "name": "Allah's love",
+    "count": 1
+  },
+  {
+    "slug": "islamic-trials",
+    "name": "Islamic trials",
+    "count": 1
+  },
+  {
+    "slug": "sabr-in-hardship",
+    "name": "sabr in hardship",
+    "count": 1
+  },
+  {
+    "slug": "tests-in-islam",
+    "name": "tests in Islam",
+    "count": 1
+  },
+  {
+    "slug": "why-does-allah-test-us",
+    "name": "why does Allah test us",
+    "count": 1
+  },
+  {
+    "slug": "comparison-islam",
+    "name": "comparison Islam",
+    "count": 1
+  },
+  {
+    "slug": "envy-islam",
+    "name": "envy Islam",
+    "count": 1
+  },
+  {
+    "slug": "ghibtah",
+    "name": "ghibtah",
+    "count": 1
+  },
+  {
+    "slug": "hasad",
+    "name": "hasad",
+    "count": 1
+  },
+  {
+    "slug": "al-wadud-dua",
+    "name": "Al Wadud dua",
+    "count": 1
+  },
+  {
+    "slug": "feeling-like-a-burden-islam",
+    "name": "feeling like a burden Islam",
+    "count": 1
+  },
+  {
+    "slug": "feeling-worthless-islam",
+    "name": "feeling worthless Islam",
+    "count": 1
+  },
+  {
+    "slug": "islamic-healing-worthlessness",
+    "name": "Islamic healing worthlessness",
+    "count": 1
+  },
+  {
+    "slug": "islamic-self-worth",
+    "name": "Islamic self worth",
+    "count": 1
+  },
+  {
+    "slug": "quran-self-worth",
+    "name": "Quran self worth",
+    "count": 1
+  },
+  {
+    "slug": "you-matter-islam",
+    "name": "you matter Islam",
+    "count": 1
+  },
+  {
+    "slug": "grief-in-islam",
+    "name": "grief in Islam",
+    "count": 1
+  },
+  {
+    "slug": "allah-understands-you",
+    "name": "Allah understands you",
+    "count": 1
+  },
+  {
+    "slug": "alone-in-islam",
+    "name": "alone in Islam",
+    "count": 1
+  },
+  {
+    "slug": "feeling-misunderstood-islam",
+    "name": "feeling misunderstood Islam",
+    "count": 1
+  },
+  {
+    "slug": "islamic-healing-loneliness",
+    "name": "Islamic healing loneliness",
+    "count": 1
+  },
+  {
+    "slug": "soul-loneliness-islam",
+    "name": "soul loneliness Islam",
+    "count": 1
+  },
+  {
+    "slug": "3am-anxiety-islam",
+    "name": "3am anxiety Islam",
+    "count": 1
+  },
+  {
+    "slug": "anxiety-at-night-islam",
+    "name": "anxiety at night Islam",
+    "count": 1
+  },
+  {
+    "slug": "cant-sleep-islam",
+    "name": "can't sleep Islam",
+    "count": 1
+  },
+  {
+    "slug": "islamic-insomnia-sukoon-at-night",
+    "name": "Islamic insomnia\nsukoon at night",
+    "count": 1
+  },
+  {
+    "slug": "muslim-anxiety",
+    "name": "Muslim anxiety",
+    "count": 1
+  },
+  {
+    "slug": "night-worship-islam",
+    "name": "night worship Islam",
+    "count": 1
+  },
+  {
+    "slug": "tahajjud-anxiety-night-dua-islam",
+    "name": "tahajjud anxiety\nnight dua Islam",
+    "count": 1
+  },
+  {
+    "slug": "dua-not-accepted-islam",
+    "name": "dua not accepted Islam",
+    "count": 1
+  },
+  {
+    "slug": "dua-tips-islam",
+    "name": "dua tips Islam",
+    "count": 1
+  },
+  {
+    "slug": "islamic-mental-health",
+    "name": "Islamic mental health",
+    "count": 1
+  },
+  {
+    "slug": "muslim-anxiety-help",
+    "name": "Muslim anxiety help",
+    "count": 1
+  },
+  {
+    "slug": "unanswered-dua",
+    "name": "unanswered dua",
+    "count": 1
+  },
+  {
+    "slug": "when-allah-feels-far",
+    "name": "when Allah feels far",
+    "count": 1
+  },
+  {
+    "slug": "inner-peace-blog",
+    "name": "inner peace blog",
+    "count": 1
+  },
+  {
+    "slug": "islamic-motivation-for-women",
+    "name": "Islamic motivation for women",
+    "count": 1
+  },
+  {
+    "slug": "islamic-self-care",
+    "name": "Islamic self care",
+    "count": 1
+  },
+  {
+    "slug": "mental-health-and-wellness",
+    "name": "mental health and wellness",
+    "count": 1
+  },
+  {
+    "slug": "mindfulness-in-islam",
+    "name": "mindfulness in Islam",
+    "count": 1
+  },
+  {
+    "slug": "quran-and-peace",
+    "name": "Quran and peace",
+    "count": 1
+  },
+  {
+    "slug": "stress-relief-islam",
+    "name": "stress relief Islam",
+    "count": 1
+  },
+  {
+    "slug": "do-not-grieve",
+    "name": "Do Not Grieve",
+    "count": 1
+  },
+  {
+    "slug": "grief-islam",
+    "name": "grief Islam",
+    "count": 1
+  },
+  {
+    "slug": "la-tahzani",
+    "name": "la tahzani",
+    "count": 1
+  },
+  {
+    "slug": "quran-anxiety",
+    "name": "Quran anxiety",
+    "count": 1
+  },
+  {
+    "slug": "islam-and-science",
+    "name": "Islam and Science",
+    "count": 1
+  },
+  {
+    "slug": "anxiety-remidies",
+    "name": "anxiety remidies",
+    "count": 1
+  },
+  {
+    "slug": "innerpeaceinislam",
+    "name": "InnerpeaceinIslam",
+    "count": 1
+  },
+  {
+    "slug": "peace",
+    "name": "Peace",
+    "count": 1
+  },
+  {
+    "slug": "quran-reflections",
+    "name": "Quran Reflections",
+    "count": 1
+  },
+  {
+    "slug": "science-and-spirituality",
+    "name": "Science and Spirituality",
+    "count": 1
+  },
+  {
+    "slug": "dopamine-and-happiness",
+    "name": "dopamine and happiness",
+    "count": 1
+  },
+  {
+    "slug": "prophet-muhammad-smile",
+    "name": "Prophet Muhammad smile",
+    "count": 1
+  },
+  {
+    "slug": "smile-in-islam",
+    "name": "smile in Islam",
+    "count": 1
+  },
+  {
+    "slug": "smiling-benefits",
+    "name": "smiling benefits",
+    "count": 1
+  },
+  {
+    "slug": "sunnah-reflections-islamic-lifestyle-sunnah-of-smiling",
+    "name": "Sunnah Reflections / Islamic Lifestyle\nSunnah of smiling",
+    "count": 1
+  },
+  {
+    "slug": "how-to-stop-overthinking-in-islam",
+    "name": "How to stop overthinking in Islam",
+    "count": 1
+  },
+  {
+    "slug": "islamic-anxiety-relief",
+    "name": "Islamic anxiety relief",
+    "count": 1
+  },
+  {
+    "slug": "quranic-verses-for-peace",
+    "name": "Quranic verses for peace",
+    "count": 1
+  },
+  {
+    "slug": "surah-al-imran-3160-benefits",
+    "name": "Surah Al-Imran 3:160 benefits",
+    "count": 1
+  },
+  {
+    "slug": "tawakkul-for-mental-health",
+    "name": "Tawakkul for mental health",
+    "count": 1
+  },
+  {
+    "slug": "reflection",
+    "name": "Reflection",
+    "count": 1
+  },
+  {
+    "slug": "sabr-sukoon-series-length-1050-words",
+    "name": "Sabr & Sukoon Series\nLength\t~1050 words",
+    "count": 1
+  },
+  {
+    "slug": "digital-detox",
+    "name": "Digital Detox",
+    "count": 1
+  },
+  {
+    "slug": "digitaldetox",
+    "name": "DigitalDetox",
+    "count": 1
+  },
+  {
+    "slug": "imaan",
+    "name": "Imaan",
+    "count": 1
+  },
+  {
+    "slug": "sabr-and-mental-health",
+    "name": "sabr and mental health",
+    "count": 1
+  },
+  {
+    "slug": "zikr-and-dopamine",
+    "name": "zikr and dopamine",
+    "count": 1
+  },
+  {
+    "slug": "dreams",
+    "name": "Dreams",
+    "count": 1
+  },
+  {
+    "slug": "patience",
+    "name": "Patience",
+    "count": 1
+  },
+  {
+    "slug": "islamic-stories",
+    "name": "Islamic Stories",
+    "count": 1
+  },
+  {
+    "slug": "prophet-ayyub",
+    "name": "Prophet Ayyub",
+    "count": 1
+  },
+  {
+    "slug": "quran-lessons",
+    "name": "Quran Lessons",
+    "count": 1
+  },
+  {
+    "slug": "youth-guidance",
+    "name": "Youth Guidance",
+    "count": 1
+  },
+  {
+    "slug": "miracles",
+    "name": "Miracles",
+    "count": 1
+  },
+  {
+    "slug": "prophet-muhammads-physical-miracles",
+    "name": "Prophet Muhammad's physical miracles",
+    "count": 1
+  },
+  {
+    "slug": "allama-iqbal",
+    "name": "Allama Iqbal",
+    "count": 1
+  },
+  {
+    "slug": "islamic-poetry",
+    "name": "Islamic Poetry",
+    "count": 1
+  },
+  {
+    "slug": "ki-muhammad-se-wafa",
+    "name": "Ki Muhammad se wafa",
+    "count": 1
+  },
+  {
+    "slug": "love-for-prophet-muhammad",
+    "name": "Love for Prophet Muhammad ﷺ",
+    "count": 1
+  },
+  {
+    "slug": "forgiveness-islam",
+    "name": "forgiveness Islam",
+    "count": 1
+  },
+  {
+    "slug": "inner-peace-islam-sukoon",
+    "name": "inner peace Islam\nsukoon",
+    "count": 1
+  },
+  {
+    "slug": "islamic-forgiveness",
+    "name": "Islamic forgiveness",
+    "count": 1
+  },
+  {
+    "slug": "istighfar-benefits-allah-mercy",
+    "name": "istighfar benefits\nAllah mercy",
+    "count": 1
+  },
+  {
+    "slug": "maafi-islam",
+    "name": "maafi Islam",
+    "count": 1
+  },
+  {
+    "slug": "prophet-forgiveness",
+    "name": "Prophet forgiveness",
+    "count": 1
+  },
+  {
+    "slug": "quran-forgiveness",
+    "name": "Quran forgiveness",
+    "count": 1
+  },
+  {
+    "slug": "islamic-leadership",
+    "name": "Islamic leadership",
+    "count": 1
+  },
+  {
+    "slug": "islamic-teachings-on-leadership",
+    "name": "Islamic teachings on leadership",
+    "count": 1
+  },
+  {
+    "slug": "leadership",
+    "name": "Leadership",
+    "count": 1
+  },
+  {
+    "slug": "leadership-qualities",
+    "name": "leadership qualities",
+    "count": 1
+  },
+  {
+    "slug": "prophet-muhammad-as-a-leader",
+    "name": "Prophet Muhammad as a leader",
+    "count": 1
+  },
+  {
+    "slug": "islamicreminders",
+    "name": "Islamicreminders",
+    "count": 1
+  },
+  {
+    "slug": "kindness",
+    "name": "Kindness",
+    "count": 1
+  },
+  {
+    "slug": "prophets-kindness",
+    "name": "Prophet’s kindness",
+    "count": 1
+  },
+  {
+    "slug": "sabr-and-sukoonkindness-in-islam",
+    "name": "Sabr and SukoonKindness in Islam",
+    "count": 1
+  },
+  {
+    "slug": "dua-for-parents",
+    "name": "dua for parents",
+    "count": 1
+  },
+  {
+    "slug": "honor-of-parents-in-islam",
+    "name": "honor  of parents in Islam",
+    "count": 1
+  },
+  {
+    "slug": "importance-parents",
+    "name": "importance parents",
+    "count": 1
+  },
+  {
+    "slug": "islamic-family-values",
+    "name": "Islamic family values",
+    "count": 1
+  },
+  {
+    "slug": "jannah",
+    "name": "Jannah",
+    "count": 1
+  },
+  {
+    "slug": "parents-rights-in-islam",
+    "name": "parents rights in Islam",
+    "count": 1
+  },
+  {
+    "slug": "serving-parents-in-islam",
+    "name": "serving parents in Islam",
+    "count": 1
+  },
+  {
+    "slug": "honesty",
+    "name": "Honesty",
+    "count": 1
+  },
+  {
+    "slug": "sidq",
+    "name": "Sidq",
+    "count": 1
+  },
+  {
+    "slug": "truthfulness",
+    "name": "Truthfulness",
+    "count": 1
+  },
+  {
+    "slug": "balance-between-deen-and-dunya",
+    "name": "Balance between Deen and Dunya",
+    "count": 1
+  },
+  {
+    "slug": "importance-of-time-in-quran-and-hadith",
+    "name": "Importance of time in Quran and Hadith",
+    "count": 1
+  },
+  {
+    "slug": "islamic-productivity-tips",
+    "name": "Islamic productivity tips",
+    "count": 1
+  },
+  {
+    "slug": "time-management-in-islam",
+    "name": "Time Management in Islam",
+    "count": 1
+  },
+  {
+    "slug": "importance-of-gratitude-in-islam",
+    "name": "Importance of gratitude in Islam",
+    "count": 1
+  },
+  {
+    "slug": "islamic-way-of-happiness",
+    "name": "Islamic way of happiness",
+    "count": 1
+  },
+  {
+    "slug": "shukr-aur-barakah",
+    "name": "Shukr aur barakah",
+    "count": 1
+  },
+  {
+    "slug": "shukr-in-quran-and-hadith",
+    "name": "Shukr in Quran and Hadith",
+    "count": 1
+  },
+  {
+    "slug": "hope",
+    "name": "Hope",
+    "count": 1
+  },
+  {
+    "slug": "daily-quran-reading",
+    "name": "Daily Quran Reading",
+    "count": 1
+  },
+  {
+    "slug": "islamic-guidance-ahadith",
+    "name": "Islamic Guidance Ahadith",
+    "count": 1
+  },
+  {
+    "slug": "light-of-islam-islamic-motivation",
+    "name": "Light of Islam Islamic Motivation",
+    "count": 1
+  },
+  {
+    "slug": "heart-and-soul",
+    "name": "Heart and Soul",
+    "count": 1
+  },
+  {
+    "slug": "quran-and-hadith",
+    "name": "Quran and Hadith",
+    "count": 1
+  },
+  {
+    "slug": "forgiveness",
+    "name": "Forgiveness",
+    "count": 1
+  },
+  {
+    "slug": "islamicwisdom",
+    "name": "IslamicWisdom",
+    "count": 1
+  },
+  {
+    "slug": "trustinallahspiritual-wellness",
+    "name": "TrustInAllah​Spiritual Wellness",
+    "count": 1
+  },
+  {
+    "slug": "spiritual-psychology",
+    "name": "Spiritual Psychology",
+    "count": 1
+  },
+  {
+    "slug": "emotional-strength",
+    "name": "Emotional Strength",
+    "count": 1
+  },
+  {
+    "slug": "heart",
+    "name": "Heart",
+    "count": 1
+  },
+  {
+    "slug": "islamic-reminder",
+    "name": "Islamic Reminder",
+    "count": 1
+  },
+  {
+    "slug": "spiritual-peace",
+    "name": "spiritual peace",
+    "count": 1
+  },
+  {
+    "slug": "al-jabbar",
+    "name": "Al-Jabbar",
+    "count": 1
+  },
+  {
+    "slug": "divine-connection",
+    "name": "Divine Connection",
+    "count": 1
+  },
+  {
+    "slug": "heartbreak-recovery",
+    "name": "Heartbreak Recovery",
+    "count": 1
+  },
+  {
+    "slug": "spiritual-burnout",
+    "name": "Spiritual Burnout",
+    "count": 1
+  },
+  {
+    "slug": "islamic-stress-relief",
+    "name": "Islamic stress relief",
+    "count": 1
+  },
+  {
+    "slug": "quranic-ayat",
+    "name": "Quranic Ayat",
+    "count": 1
+  },
+  {
+    "slug": "sakoon",
+    "name": "sakoon",
+    "count": 1
+  },
+  {
+    "slug": "duaforpeace",
+    "name": "DuaForPeace",
+    "count": 1
+  },
+  {
+    "slug": "innerpeace",
+    "name": "InnerPeace",
+    "count": 1
+  },
+  {
+    "slug": "islamicduas",
+    "name": "IslamicDuas",
+    "count": 1
+  },
+  {
+    "slug": "muslimlifestyle",
+    "name": "MuslimLifestyle",
+    "count": 1
+  },
+  {
+    "slug": "peaceofmind",
+    "name": "PeaceOfMind",
+    "count": 1
+  },
+  {
+    "slug": "sabrandsukoon",
+    "name": "SabrAndSukoon",
+    "count": 1
+  }
+]

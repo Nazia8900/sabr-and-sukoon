@@ -1,0 +1,38 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env*.local
+
+# local editor / preview tooling
+/.claude/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# runtime draft queue (file adapter) — keep the folder, ignore generated drafts
+/content/drafts/*.json
+!/content/drafts/.gitkeep

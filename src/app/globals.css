@@ -1,0 +1,533 @@
+@import "tailwindcss";
+
+/* ───────────────────────── Design tokens ─────────────────────────
+   Sabr & Sukoon: calm Islamic-wellness palette — emerald/teal +
+   warm cream + soft gold, derived from the brand logo. */
+@theme {
+  --color-cream-50: #fbf9f4;
+  --color-cream-100: #f5f1e8;
+  --color-cream-200: #ebe4d4;
+  --color-cream-300: #ddd3bd;
+
+  --color-emerald-50: #edf7f3;
+  --color-emerald-100: #d3ede2;
+  --color-emerald-200: #a7dcc7;
+  --color-emerald-300: #6ec3a4;
+  --color-emerald-400: #3fa783;
+  --color-emerald-500: #1f8a68;
+  --color-emerald-600: #156f54;
+  --color-emerald-700: #115844;
+  --color-emerald-800: #0e4537;
+  --color-emerald-900: #0a3329;
+
+  --color-gold-300: #e6c878;
+  --color-gold-400: #d9b14e;
+  --color-gold-500: #c79a2f;
+  --color-gold-600: #a87f1f;
+
+  --color-ink-900: #1c2521;
+  --color-ink-700: #2f3a35;
+  --color-ink-500: #54605a;
+  --color-ink-400: #646f69; /* darkened for WCAG AA on cream/white */
+
+  --color-brand: var(--color-emerald-600);
+  --color-brand-dark: var(--color-emerald-800);
+  --color-accent: var(--color-gold-400);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), Georgia, "Times New Roman", serif;
+  --font-arabic: var(--font-amiri), "Amiri", "Scheherazade New", serif;
+
+  --radius-sm: 0.5rem;
+  --radius-card: 1rem;
+  --radius-lg: 1.5rem;
+
+  /* Emerald-tinted, layered elevation (not generic gray drop shadows) */
+  --shadow-soft: 0 1px 3px rgba(14, 69, 55, 0.06);
+  --shadow-card: 0 1px 2px rgba(14, 69, 55, 0.05), 0 10px 28px -14px rgba(14, 69, 55, 0.18);
+  --shadow-card-hover: 0 2px 6px rgba(14, 69, 55, 0.08), 0 20px 44px -16px rgba(14, 69, 55, 0.3);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: var(--color-emerald-200);
+  color: var(--color-emerald-900);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-emerald-500);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Respect reduced-motion preference (WCAG 2.3.3) */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ───────────────────────── Reusable motifs ───────────────────────── */
+/* Thin gold hairline divider used under section headings site-wide */
+.gold-rule::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  margin-top: 0.6rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--color-gold-400), var(--color-gold-300));
+}
+
+/* Subtle 8-point Islamic star texture for hero backgrounds (set as bg-image) */
+.star-texture {
+  background-image: radial-gradient(circle at 1px 1px, rgba(21, 111, 84, 0.06) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+/* ───────────────────────── Article prose ───────────────────────── */
+.prose {
+  font-size: 1.075rem;
+  line-height: 1.85;
+  color: var(--color-ink-700);
+  max-width: 70ch;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.prose > * + * {
+  margin-top: 1.25em;
+}
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: var(--font-serif);
+  color: var(--color-emerald-900);
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  scroll-margin-top: 6rem;
+}
+.prose h1 {
+  font-size: 1.9rem;
+  margin-top: 1.5em;
+}
+.prose h2 {
+  font-size: 1.55rem;
+  margin-top: 1.9em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--color-cream-200);
+}
+/* gold tick under article h2s to carry the brand accent into the body */
+.prose h2::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2px;
+  margin-top: 0.4em;
+  margin-bottom: -0.4em;
+  border-radius: 2px;
+  background: var(--color-gold-400);
+}
+.prose h3 {
+  font-size: 1.28rem;
+  margin-top: 1.6em;
+}
+.prose h4 {
+  font-size: 1.1rem;
+  margin-top: 1.4em;
+}
+.prose p {
+  margin-top: 1.15em;
+}
+.prose a {
+  color: var(--color-emerald-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--color-emerald-200);
+}
+.prose a:hover {
+  color: var(--color-emerald-800);
+  text-decoration-color: var(--color-emerald-500);
+}
+.prose strong {
+  color: var(--color-ink-900);
+  font-weight: 600;
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.4em;
+  margin-top: 1.15em;
+}
+.prose ul {
+  list-style: disc;
+}
+.prose ol {
+  list-style: decimal;
+}
+.prose li {
+  margin-top: 0.5em;
+}
+.prose li::marker {
+  color: var(--color-emerald-500);
+}
+.prose blockquote {
+  border-left: 4px solid var(--color-gold-400);
+  background: var(--color-emerald-50);
+  padding: 0.9em 1.2em;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-style: italic;
+  color: var(--color-emerald-900);
+}
+.prose blockquote p {
+  margin: 0;
+}
+.prose img {
+  border-radius: 0.85rem;
+  margin: 1.8em auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 10px 30px -12px rgba(14, 69, 55, 0.25);
+}
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--color-cream-200);
+  margin: 2.4em 0;
+}
+.prose iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border-radius: 0.85rem;
+  border: 0;
+  margin: 1.8em 0;
+}
+/* Tables scroll horizontally on small screens instead of breaking the layout */
+.prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.prose th,
+.prose td {
+  border: 1px solid var(--color-cream-200);
+  padding: 0.6em 0.8em;
+  text-align: left;
+}
+.prose th {
+  background: var(--color-emerald-50);
+  color: var(--color-emerald-900);
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   MIGRATED-CONTENT STYLESHEET
+   The 73 Blogger posts ship a variety of bespoke class names from
+   several AI-generated templates (6 FAQ variants, step/section cards,
+   quran/dua blocks, etc.). Their inconsistent inline colors/fonts were
+   stripped at migration time; this single stylesheet maps every one of
+   those structural classes to the emerald/cream/gold brand so every
+   post reads cohesively. All scoped under .prose so nothing leaks.
+   ───────────────────────────────────────────────────────────────── */
+
+/* Arabic ayah / dua text — unified across all variant class names */
+.prose [lang="ar"],
+.prose .arabic,
+.prose .arabic-text,
+.prose .quran-arabic,
+.prose .dua-arabic,
+.prose .ayah-arabic,
+.prose .ar {
+  font-family: var(--font-arabic);
+  font-size: clamp(1.3rem, 4.5vw, 1.7rem);
+  line-height: 2.1;
+  direction: rtl;
+  text-align: center;
+  color: var(--color-emerald-800);
+  margin: 0.2em 0;
+}
+
+/* Transliteration lines */
+.prose .quran-transliteration,
+.prose .dua-transliteration,
+.prose .transliteration,
+.prose .translit,
+.prose .tr {
+  font-style: italic;
+  text-align: center;
+  color: var(--color-ink-500);
+  font-size: 0.98rem;
+}
+
+/* Translation / meaning / reference lines */
+.prose .quran-translation,
+.prose .dua-translation,
+.prose .dua-meaning,
+.prose .translation {
+  text-align: center;
+  color: var(--color-emerald-900);
+}
+.prose .quran-reference,
+.prose .dua-reference,
+.prose .reference,
+.prose .rf {
+  text-align: center;
+  color: var(--color-gold-600);
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Quran / dua / ayah highlight boxes */
+.prose .quran-block,
+.prose .dua-block,
+.prose .dua-box,
+.prose .ayah-block,
+.prose .ayah-box,
+.prose .verse-box,
+.prose .hadith-block,
+.prose .hadith-box {
+  background: linear-gradient(180deg, var(--color-emerald-50), #ffffff);
+  border: 1px solid var(--color-emerald-100);
+  border-top: 3px solid var(--color-gold-400);
+  border-radius: var(--radius-card);
+  padding: 1.5em 1.4em;
+  margin: 1.8em 0;
+  box-shadow: var(--shadow-soft);
+}
+.prose .quran-block > * + *,
+.prose .dua-box > * + * {
+  margin-top: 0.6em;
+}
+
+/* Section cards (Section 01 / title / body) */
+.prose .section-card,
+.prose .content-card,
+.prose .info-card {
+  background: var(--color-cream-50);
+  border: 1px solid var(--color-cream-200);
+  border-left: 4px solid var(--color-emerald-500);
+  border-radius: var(--radius-card);
+  padding: 1.5em 1.6em;
+  margin: 1.8em 0;
+  box-shadow: var(--shadow-soft);
+}
+.prose .section-number,
+.prose .card-label,
+.prose .lbl,
+.prose .eyebrow {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold-600);
+  margin-bottom: 0.3em;
+}
+.prose .section-title,
+.prose .card-title,
+.prose .ss-h2 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-emerald-900);
+  margin: 0 0 0.5em;
+}
+
+/* Numbered step / tip cards (badge + content) */
+.prose .step-card,
+.prose .practical-step,
+.prose .tip-card,
+.prose .leader-card,
+.prose .related-card {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+  background: var(--color-cream-50);
+  border: 1px solid var(--color-cream-200);
+  border-radius: var(--radius-card);
+  padding: 1.25em 1.4em;
+  margin: 1.1em 0;
+  box-shadow: var(--shadow-soft);
+}
+.prose .step-num,
+.prose .tip-num,
+.prose .card-num,
+.prose .num,
+.prose .step-number {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4em;
+  height: 2.4em;
+  border-radius: 999px;
+  background: var(--color-emerald-700);
+  color: var(--color-cream-50);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.prose .step-content > :first-child,
+.prose .step-content h3,
+.prose .step-content h4 {
+  margin-top: 0;
+}
+
+/* FAQ — all six template variants normalized to one treatment */
+.prose .faq-item,
+.prose .sabr-faq-item,
+.prose .ss-faq-item,
+.prose .faq {
+  border: 1px solid var(--color-cream-200);
+  border-radius: var(--radius-card);
+  background: #fff;
+  padding: 1.1em 1.3em;
+  margin: 0.9em 0;
+  box-shadow: var(--shadow-soft);
+}
+.prose .faq-q,
+.prose .faq-question,
+.prose .faq-ques,
+.prose .sabr-faq-question,
+.prose .ss-faq-q {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--color-emerald-900);
+  margin: 0 0 0.4em;
+}
+.prose .faq-a,
+.prose .faq-answer,
+.prose .faq-ans,
+.prose .sabr-faq-answer,
+.prose .ss-faq-a {
+  color: var(--color-ink-700);
+  margin: 0;
+}
+
+/* Author / disclaimer / note callouts (kept for automation content) */
+.prose .author-box,
+.prose .disclaimer-box,
+.prose .note-box,
+.prose .info-box {
+  background: var(--color-cream-100);
+  border: 1px solid var(--color-cream-200);
+  border-left: 4px solid var(--color-gold-400);
+  border-radius: var(--radius-sm);
+  padding: 1.1em 1.3em;
+  margin: 1.6em 0;
+  font-size: 0.95rem;
+  color: var(--color-ink-500);
+}
+
+/* Intro hero blocks inside posts */
+.prose .hero,
+.prose .dua-hero,
+.prose .post-hero,
+.prose .intro-box,
+.prose .hook-intro {
+  background: linear-gradient(180deg, var(--color-emerald-50), var(--color-cream-50));
+  border: 1px solid var(--color-emerald-100);
+  border-radius: var(--radius-lg);
+  padding: 1.6em 1.5em;
+  margin: 1.4em 0 2em;
+  text-align: center;
+}
+.prose .hook-intro {
+  text-align: left;
+  border: none;
+  border-left: 4px solid var(--color-gold-400);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--color-emerald-50);
+  font-style: italic;
+  color: var(--color-emerald-900);
+}
+
+/* Pills / tags inside content */
+.prose .tag,
+.prose .badge,
+.prose .pill {
+  display: inline-block;
+  background: var(--color-emerald-50);
+  color: var(--color-emerald-700);
+  border: 1px solid var(--color-emerald-100);
+  border-radius: 999px;
+  padding: 0.2em 0.8em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0.15em;
+}
+
+/* Dividers / separators / centered media */
+.prose .divider,
+.prose .section-divider {
+  border: none;
+  border-top: 1px solid var(--color-cream-200);
+  margin: 2em 0;
+}
+.prose .separator {
+  text-align: center;
+  margin: 1.4em 0;
+}
+.prose .separator img {
+  margin: 0 auto;
+}
+
+/* Video wrappers */
+.prose .video-wrap,
+.prose .BLOG_video_class,
+.prose .video-container {
+  position: relative;
+  margin: 1.8em 0;
+}
+
+/* Small decorative icons/avatars shouldn't blow up */
+.prose .icon,
+.prose .author-avatar,
+.prose .avatar {
+  max-width: 3.5rem;
+  height: auto;
+}
+
+/* ───────────────────────── Utilities ───────────────────────── */
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
