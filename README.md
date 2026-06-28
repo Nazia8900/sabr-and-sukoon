@@ -28,8 +28,9 @@ with a **draft-only automation pipeline** and a **full admin login**.
 
 ## 🚀 Quick start (local)
 
+> This repository **is** the app (the Next.js project lives at the repo root).
+
 ```bash
-cd site
 npm install
 
 # 1. Generate admin credentials (prints ADMIN_PASSWORD_HASH + AUTH_SECRET)
@@ -122,13 +123,24 @@ You can send `contentHtml` instead of `contentMarkdown`.
 
 ## ☁️ Deploy to Vercel + connect the domain
 
-1. Push this repo to GitHub.
-2. In Vercel: **New Project → import the repo → set Root Directory to `site`.**
-3. Add environment variables (from `.env.example`): `NEXT_PUBLIC_SITE_URL`,
-   `ADMIN_USERNAME`, `ADMIN_PASSWORD_HASH`, `AUTH_SECRET`, `INGEST_TOKEN`,
-   `REVALIDATE_TOKEN`. Use `https://www.sabrandsukoon.online` for the site URL.
-4. Deploy.
-5. **Domain (Namecheap):** Vercel → Project → Settings → Domains → add
+The project is already configured for a **zero-config Vercel import** — Next.js is
+auto-detected, the repo root **is** the app (leave Root Directory as `./`), and it
+**builds with no environment variables set**, so the public site deploys on the very
+first import. Env vars are only needed to enable the admin login and automation.
+
+1. In Vercel: **Add New → Project → import `Saqib-Pervez128/sabar-and-sukoon`**.
+   Framework = Next.js (auto), Root Directory = `./` (default), Build = `next build` (auto).
+   Click **Deploy** — it will succeed as-is.
+2. **To enable admin + automation**, add these Environment Variables (Project → Settings
+   → Environment Variables), then redeploy:
+   - `NEXT_PUBLIC_SITE_URL` = `https://www.sabrandsukoon.online`
+   - `ADMIN_USERNAME` = e.g. `nazia`
+   - `ADMIN_PASSWORD_HASH` = run `npm run seed-admin -- "your-password"` and paste the
+     printed base64 value
+   - `AUTH_SECRET` = the value the same command prints (or any long random string)
+   - `INGEST_TOKEN` = a long random string (your automation sends it as a Bearer token)
+   - `REVALIDATE_TOKEN` = a long random string (optional)
+3. **Domain (Namecheap):** Vercel → Project → Settings → Domains → add
    `sabrandsukoon.online` and `www.sabrandsukoon.online`. Then in Namecheap → Domain →
    *Advanced DNS*:
    - `A` record `@` → `76.76.21.21`
@@ -172,14 +184,14 @@ domain age — see the analysis notes from the project kickoff.
 ## 🗂 Project structure
 
 ```
-site/
+. (repo root = the app)
 ├─ content/
 │  ├─ posts/            # published articles (JSON from migration, or .md)
 │  ├─ drafts/           # incoming automation drafts (file adapter)
 │  ├─ redirects.json    # old Blogger URL → new URL (301s)
 │  └─ categories.json   # topic index
 ├─ scripts/
-│  ├─ migrate-blogger.mjs
+│  ├─ migrate-blogger.mjs   # + blogger-feed.json (migration source)
 │  └─ seed-admin.mjs
 ├─ public/              # logo, favicon, default OG image
 └─ src/

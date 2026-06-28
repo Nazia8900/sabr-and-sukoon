@@ -4,6 +4,9 @@
   "private": true,
   "description": "Sabr and Sukoon — Islamic wellness blog (custom Next.js rebuild)",
   "type": "module",
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
