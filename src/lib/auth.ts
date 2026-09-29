@@ -31,11 +31,29 @@ export type Session = { sub: string; role: "admin" };
  * convenience if the user escaped it properly.
  */
 function adminHash(): string | undefined {
-  const raw = process.env.ADMIN_PASSWORD_HASH;
-  if (!raw) return undefined;
+  const configured = process.env.ADMIN_PASSWORD_HASH;
+  if (!configured) return undefined;
+
+  // Be forgiving of the common ways a value gets copied from a terminal or
+  // documentation into Vercel's environment-variable editor.
+  let raw = configured.trim();
+  if (raw.startsWith("ADMIN_PASSWORD_HASH=")) {
+    raw = raw.slice("ADMIN_PASSWORD_HASH=".length).trim();
+  }
+  const wrapper = raw[0];
+  if (
+    raw.length >= 2 &&
+    (wrapper === '"' || wrapper === "'" || wrapper === "`") &&
+    raw.at(-1) === wrapper
+  ) {
+    raw = raw.slice(1, -1).trim();
+  }
+
   if (raw.startsWith("$2")) return raw;
   try {
-    const decoded = Buffer.from(raw, "base64").toString("utf8");
+    const decoded = Buffer.from(raw.replace(/\s/g, ""), "base64")
+      .toString("utf8")
+      .trim();
     return decoded.startsWith("$2") ? decoded : undefined;
   } catch {
     return undefined;
@@ -46,10 +64,10 @@ export async function verifyCredentials(
   username: string,
   password: string
 ): Promise<boolean> {
-  const u = process.env.ADMIN_USERNAME;
+  const u = process.env.ADMIN_USERNAME?.trim();
   const hash = adminHash();
   if (!u || !hash) return false;
-  if (username !== u) {
+  if (username.trim().toLowerCase() !== u.toLowerCase()) {
     await bcrypt.compare(password, "$2a$10$invalidinvalidinvalidinvalidinvalidinv"); // constant-time-ish
     return false;
   }
