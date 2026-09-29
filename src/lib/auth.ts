@@ -1,7 +1,7 @@
 /**
  * Lightweight, dependency-light admin auth.
  *
- * - Single admin account configured via env (ADMIN_USERNAME / ADMIN_PASSWORD_HASH).
+ * - Single admin account locked to a bcrypt hash in this private application.
  * - On login we verify the bcrypt hash and issue a signed JWT (jose) stored in an
  *   httpOnly, SameSite=Lax cookie. Middleware + server components verify it.
  *
@@ -15,6 +15,9 @@ import { cookies } from "next/headers";
 
 export const SESSION_COOKIE = "ss_admin_session";
 const MAX_AGE = 60 * 60 * 8; // 8 hours
+const ADMIN_USERNAME = "nazia";
+const ADMIN_PASSWORD_HASH =
+  "$2a$12$kM4pFemCwRQ3Xtd0fcZt6uC791PPdSwLG5KZyaqIM1TRRCBJWrRvq";
 
 function secret(): Uint8Array {
   const s = process.env.AUTH_SECRET;
@@ -24,54 +27,15 @@ function secret(): Uint8Array {
 
 export type Session = { sub: string; role: "admin" };
 
-/**
- * Resolve the admin bcrypt hash from env. bcrypt hashes contain '$', which the
- * env loader (dotenv-expand) would treat as variable expansion — so the hash is
- * stored base64-encoded. A raw hash (starting with "$2") is still accepted for
- * convenience if the user escaped it properly.
- */
-function adminHash(): string | undefined {
-  const configured = process.env.ADMIN_PASSWORD_HASH;
-  if (!configured) return undefined;
-
-  // Be forgiving of the common ways a value gets copied from a terminal or
-  // documentation into Vercel's environment-variable editor.
-  let raw = configured.trim();
-  if (raw.startsWith("ADMIN_PASSWORD_HASH=")) {
-    raw = raw.slice("ADMIN_PASSWORD_HASH=".length).trim();
-  }
-  const wrapper = raw[0];
-  if (
-    raw.length >= 2 &&
-    (wrapper === '"' || wrapper === "'" || wrapper === "`") &&
-    raw.at(-1) === wrapper
-  ) {
-    raw = raw.slice(1, -1).trim();
-  }
-
-  if (raw.startsWith("$2")) return raw;
-  try {
-    const decoded = Buffer.from(raw.replace(/\s/g, ""), "base64")
-      .toString("utf8")
-      .trim();
-    return decoded.startsWith("$2") ? decoded : undefined;
-  } catch {
-    return undefined;
-  }
-}
-
 export async function verifyCredentials(
   username: string,
   password: string
 ): Promise<boolean> {
-  const u = process.env.ADMIN_USERNAME?.trim();
-  const hash = adminHash();
-  if (!u || !hash) return false;
-  if (username.trim().toLowerCase() !== u.toLowerCase()) {
+  if (username.trim().toLowerCase() !== ADMIN_USERNAME) {
     await bcrypt.compare(password, "$2a$10$invalidinvalidinvalidinvalidinvalidinv"); // constant-time-ish
     return false;
   }
-  return bcrypt.compare(password, hash);
+  return bcrypt.compare(password, ADMIN_PASSWORD_HASH);
 }
 
 export async function createSessionToken(username: string): Promise<string> {

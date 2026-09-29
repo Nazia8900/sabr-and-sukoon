@@ -33,21 +33,19 @@ with a **draft-only automation pipeline** and a **full admin login**.
 ```bash
 npm install
 
-# 1. Generate admin credentials (prints ADMIN_PASSWORD_HASH + AUTH_SECRET)
-npm run seed-admin -- "choose-a-strong-password"
-
-# 2. Create .env.local from the example and paste the values
+# 1. Create .env.local and set a long random AUTH_SECRET
 cp .env.example .env.local      # then edit it
 
-# 3. (Re)generate posts from the Blogger export — already done, re-run if needed
+# 2. (Re)generate posts from the Blogger export — already done, re-run if needed
 npm run migrate
 
-# 4. Run
+# 3. Run
 npm run dev                     # http://localhost:3000
 ```
 
-Create `.env.local` from `.env.example` and fill it with the values `npm run seed-admin`
-prints. Set a strong admin password before launch — never ship the one you developed with.
+Create `.env.local` from `.env.example` and set `AUTH_SECRET`. To rotate the locked admin
+password later, run `npm run seed-admin -- "new-strong-password"` and replace the bcrypt hash
+constant in `src/lib/auth.ts` with the decoded hash produced by the script.
 
 ---
 
@@ -85,8 +83,9 @@ When the world feels dark, remember **Ad-Duha**…
 
 ## 🔐 Admin — the editorial dashboard
 
-Sign in at `/admin` with your `ADMIN_USERNAME` / password. Sessions are signed JWTs in an
-httpOnly cookie; `/admin` and `/api/admin/*` are guarded by middleware.
+Sign in at `/admin` with the locked editorial credentials. The username and bcrypt password
+hash live in `src/lib/auth.ts`; the plaintext password is not stored. Sessions are signed
+JWTs in an httpOnly cookie; `/admin` and `/api/admin/*` are guarded by middleware.
 
 | Screen | What it does |
 |--------|--------------|
@@ -174,10 +173,7 @@ first import. Env vars are only needed to enable the admin login and automation.
 2. **To enable admin + automation**, add these Environment Variables (Project → Settings
    → Environment Variables), then redeploy:
    - `NEXT_PUBLIC_SITE_URL` = `https://www.sabrandsukoon.online`
-   - `ADMIN_USERNAME` = e.g. `nazia`
-   - `ADMIN_PASSWORD_HASH` = run `npm run seed-admin -- "your-password"` and paste the
-     printed base64 value
-   - `AUTH_SECRET` = the value the same command prints (or any long random string)
+   - `AUTH_SECRET` = any long random string used only to sign login sessions
    - `INGEST_TOKEN` = a long random string (your automation sends it as a Bearer token)
    - `REVALIDATE_TOKEN` = a long random string (optional)
 3. **Domain (Namecheap):** Vercel → Project → Settings → Domains → add
@@ -252,8 +248,6 @@ domain age — see the analysis notes from the project kickoff.
 | Variable | Purpose |
 |----------|---------|
 | `NEXT_PUBLIC_SITE_URL` | Canonical site URL (sitemap, JSON-LD, OG). |
-| `ADMIN_USERNAME` | Admin login username. |
-| `ADMIN_PASSWORD_HASH` | Base64-encoded bcrypt hash (`npm run seed-admin`). |
 | `AUTH_SECRET` | Secret for signing admin session JWTs. |
 | `INGEST_TOKEN` | Bearer token for `POST /api/ingest`. |
 | `REVALIDATE_TOKEN` | Bearer token for `POST /api/revalidate`. |
