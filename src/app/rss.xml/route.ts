@@ -12,7 +12,7 @@ function esc(s: string): string {
 }
 
 export async function GET() {
-  const posts = getAllPostMeta().slice(0, 50);
+  const posts = (await getAllPostMeta()).slice(0, 50);
   const items = posts
     .map(
       (p) => `    <item>

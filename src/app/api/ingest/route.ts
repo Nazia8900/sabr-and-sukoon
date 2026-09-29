@@ -89,7 +89,7 @@ export async function POST(req: NextRequest) {
   };
 
   try {
-    saveDraft(draft);
+    await saveDraft(draft);
   } catch (e) {
     return NextResponse.json(
       {

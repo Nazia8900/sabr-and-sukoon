@@ -1,60 +1,31 @@
 /**
- * Draft queue store (file adapter).
+ * Draft queue for the automation engine.
  *
  * The auto-blogging engine pushes DRAFTS here via POST /api/ingest. Nothing is
  * ever published automatically — a human reviews each draft in /admin and
- * explicitly approves it, which writes a published file into content/posts/.
+ * explicitly approves it, which writes a published post into the content store.
  *
- * Adapter note: this file-based store works locally and on any host with a
- * writable filesystem. On read-only/serverless hosts (e.g. Vercel) swap the
- * internals of this module for a KV/DB (Vercel KV, Postgres, Turso, etc.) —
- * the exported function signatures are all you need to keep.
+ * Storage lives in content-store.ts: Vercel Blob in production, local files in
+ * development. Nothing here touches the filesystem directly, so the queue works
+ * on read-only serverless hosts.
  */
 import "server-only";
-import {
-  readFileSync,
-  writeFileSync,
-  readdirSync,
-  existsSync,
-  mkdirSync,
-  unlinkSync,
-} from "node:fs";
-import { join } from "node:path";
 import sanitizeHtml from "sanitize-html";
 import { marked } from "marked";
 import { slugifyLabel, SANITIZE_OPTS } from "./posts";
+import {
+  listStoredDrafts,
+  getStoredDraft,
+  saveStoredDraft,
+  deleteStoredDraft,
+  saveStoredPost,
+  getStoredPost,
+  type DraftRecord,
+  type PostRecord,
+} from "./content-store";
+import { getAllPostMeta } from "./posts";
 
-const DRAFTS_DIR = join(process.cwd(), "content", "drafts");
-const POSTS_DIR = join(process.cwd(), "content", "posts");
-
-export type Draft = {
-  id: string;
-  title: string;
-  slug: string;
-  excerpt?: string;
-  author?: string;
-  categories: string[];
-  cover?: string | null;
-  // content may arrive as html or markdown
-  contentHtml?: string;
-  contentMarkdown?: string;
-  status: "draft";
-  source: string; // e.g. "make.com", "manual"
-  meta?: Record<string, unknown>; // topic, keywords, model used, source links…
-  createdAt: string;
-};
-
-function ensure() {
-  if (!existsSync(DRAFTS_DIR)) mkdirSync(DRAFTS_DIR, { recursive: true });
-}
-
-const SAFE_ID = /^[a-z0-9][a-z0-9-]{0,80}$/;
-
-/** Reject ids/slugs that could escape the intended directory (path traversal). */
-function safeName(name: string): string {
-  if (!name || !SAFE_ID.test(name)) throw new Error("Invalid id/slug");
-  return name;
-}
+export type Draft = DraftRecord;
 
 export function slugify(s: string): string {
   return s
@@ -69,48 +40,24 @@ export function slugify(s: string): string {
     .replace(/^-|-$/g, "");
 }
 
-export function listDrafts(): Draft[] {
-  ensure();
-  const out: Draft[] = [];
-  for (const f of readdirSync(DRAFTS_DIR)) {
-    if (!f.endsWith(".json")) continue;
-    try {
-      out.push(JSON.parse(readFileSync(join(DRAFTS_DIR, f), "utf8")));
-    } catch {
-      /* skip corrupt */
-    }
-  }
-  return out.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
+export async function listDrafts(): Promise<Draft[]> {
+  return listStoredDrafts();
 }
 
-export function getDraft(id: string): Draft | null {
-  ensure();
-  const file = join(DRAFTS_DIR, `${safeName(id)}.json`);
-  if (!existsSync(file)) return null;
-  try {
-    return JSON.parse(readFileSync(file, "utf8"));
-  } catch {
-    return null;
-  }
+export async function getDraft(id: string): Promise<Draft | null> {
+  return getStoredDraft(id);
 }
 
-export function saveDraft(d: Draft): void {
-  ensure();
-  writeFileSync(
-    join(DRAFTS_DIR, `${safeName(d.id)}.json`),
-    JSON.stringify(d, null, 2),
-    "utf8"
-  );
+export async function saveDraft(d: Draft): Promise<void> {
+  return saveStoredDraft(d);
 }
 
-export function deleteDraft(id: string): void {
-  const file = join(DRAFTS_DIR, `${safeName(id)}.json`);
-  if (existsSync(file)) unlinkSync(file);
+export async function deleteDraft(id: string): Promise<void> {
+  return deleteStoredDraft(id);
 }
 
-export function draftCount(): number {
-  ensure();
-  return readdirSync(DRAFTS_DIR).filter((f) => f.endsWith(".json")).length;
+export async function draftCount(): Promise<number> {
+  return (await listStoredDrafts()).length;
 }
 
 /** Resolve a draft's body to sanitized HTML (accepts html or markdown). */
@@ -125,26 +72,31 @@ export function draftToHtml(d: Draft): string {
 }
 
 /**
- * Approve & publish a draft: write content/posts/<slug>.json and remove the draft.
- * Returns the published slug. (On read-only FS this throws — see adapter note.)
+ * Approve & publish a draft: write it into the content store as a published
+ * post and remove it from the queue. Returns the published slug.
  */
-export function publishDraft(id: string, overrides: Partial<Draft> = {}): string {
-  const d = getDraft(id);
+export async function publishDraft(
+  id: string,
+  overrides: Partial<Draft> = {}
+): Promise<string> {
+  const d = await getDraft(id);
   if (!d) throw new Error("Draft not found");
   const merged = { ...d, ...overrides };
 
-  // Always re-slugify caller-supplied slugs so a published file can never escape
-  // the posts directory (path-traversal hardening).
-  let slug = slugify(merged.slug || merged.title) || `post-${Date.now().toString(36)}`;
-  // avoid clobbering an existing published post
-  let candidate = slug;
+  // Always re-slugify caller-supplied slugs, then make sure the result does not
+  // collide with an existing article.
+  const base = slugify(merged.slug || merged.title) || `post-${Date.now().toString(36)}`;
+  const taken = new Set((await getAllPostMeta()).map((p) => p.slug));
+  let slug = base;
   let n = 2;
-  while (existsSync(join(POSTS_DIR, `${candidate}.json`))) candidate = `${slug}-${n++}`;
-  slug = candidate;
+  while (taken.has(slug) || (await getStoredPost(slug))) slug = `${base}-${n++}`;
 
   const now = new Date().toISOString();
+  // Automation content arrives as HTML (or markdown we convert once), so it is
+  // stored in html format — the same shape the migrated articles use.
   const html = draftToHtml(merged);
-  const post = {
+
+  const record: PostRecord = {
     slug,
     title: merged.title,
     excerpt:
@@ -156,14 +108,13 @@ export function publishDraft(id: string, overrides: Partial<Draft> = {}): string
     categories: merged.categories || [],
     cover: merged.cover || null,
     status: "published",
+    format: "html",
+    body: html,
     source: merged.source || "automation",
-    oldPath: null,
-    contentHtml: html,
   };
 
-  if (!existsSync(POSTS_DIR)) mkdirSync(POSTS_DIR, { recursive: true });
-  writeFileSync(join(POSTS_DIR, `${slug}.json`), JSON.stringify(post, null, 2), "utf8");
-  deleteDraft(id);
+  await saveStoredPost(record);
+  await deleteDraft(id);
   return slug;
 }
 

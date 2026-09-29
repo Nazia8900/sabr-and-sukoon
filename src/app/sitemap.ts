@@ -3,7 +3,7 @@ import { getAllPostMeta } from "@/lib/posts";
 import { getAllTopics } from "@/lib/topics";
 import { site } from "@/lib/site";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = site.url;
   const now = new Date();
 
@@ -20,14 +20,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/disclaimer`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  const posts: MetadataRoute.Sitemap = getAllPostMeta().map((p) => ({
+  const posts: MetadataRoute.Sitemap = (await getAllPostMeta()).map((p) => ({
     url: `${base}/blog/${p.slug}`,
     lastModified: p.updatedAt ? new Date(p.updatedAt) : now,
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
-  const topics: MetadataRoute.Sitemap = getAllTopics()
+  const topics: MetadataRoute.Sitemap = (await getAllTopics())
     .filter((t) => t.count >= 2)
     .map((t) => ({
       url: `${base}/topics/${t.slug}`,

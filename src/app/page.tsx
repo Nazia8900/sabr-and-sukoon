@@ -9,8 +9,8 @@ import { site } from "@/lib/site";
 
 export const revalidate = 3600;
 
-export default function HomePage() {
-  const posts = getAllPostMeta();
+export default async function HomePage() {
+  const posts = await getAllPostMeta();
   const topics = site.featuredTopics;
   const [hero, ...rest] = posts;
   const featured = rest.slice(0, 2);

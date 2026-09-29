@@ -1,12 +1,17 @@
 /**
- * File-based content loader.
+ * Content loader — merges two sources into one list of posts.
  *
- * Published posts live in `content/posts/*` and are read at build time.
- * Two formats are supported so human-written blogs are easy to add later:
- *   • `<slug>.json`  — { title, contentHtml, ... }  (used by the Blogger migration)
- *   • `<slug>.md`    — Markdown with YAML-ish frontmatter (used for new posts)
+ * 1. Repository files in `content/posts/`, read at build time:
+ *      • `<slug>.json`  — { title, contentHtml, ... }  (the Blogger migration)
+ *      • `<slug>.md`    — Markdown with YAML-ish frontmatter
+ *    Dropping a file in still works exactly as before.
  *
- * To add a new article, drop a file into `content/posts/`. That's it.
+ * 2. Posts written in the admin dashboard, held in the content store
+ *    (Vercel Blob in production, local files in development).
+ *
+ * Reads are async because the store may be over the network. Results are
+ * cached in module scope for the lifetime of a render/build pass; publishing
+ * from the admin calls invalidatePostsCache() so a new post shows immediately.
  */
 import "server-only";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -14,6 +19,7 @@ import { join } from "node:path";
 import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
 import { slugifyLabel } from "./slug";
+import { listStoredPosts, getStoredPost, type PostRecord } from "./content-store";
 
 const POSTS_DIR = join(process.cwd(), "content", "posts");
 
@@ -41,6 +47,18 @@ export type PostMeta = Omit<Post, "contentHtml">;
 // inline styles to a layout allowlist — no position/z-index/background/font — so
 // neither first-party nor automation-ingested content can do CSS-based UI redress.
 const LAYOUT_STYLE: Record<string, RegExp[]> = {
+  color: [
+    /^(#[0-9a-f]{3,8}|rgba?\([\d\s.,%]+\)|hsla?\([\d\s.,%]+\)|[a-z]+)$/i,
+  ],
+  "background-color": [
+    /^(transparent|#[0-9a-f]{3,8}|rgba?\([\d\s.,%]+\)|hsla?\([\d\s.,%]+\)|[a-z]+)$/i,
+  ],
+  "font-family": [/^[a-z0-9 ,.'"-]+$/i],
+  "font-size": [/^\d+(\.\d+)?(px|rem|em|%)$/i],
+  "font-weight": [/^(normal|bold|bolder|lighter|[1-9]00)$/],
+  "font-style": [/^(normal|italic|oblique)$/],
+  "text-decoration": [/^(none|underline|line-through|overline)(\s+(solid|double|dotted|dashed|wavy))?$/],
+  "letter-spacing": [/^(normal|-?\d+(\.\d+)?(px|rem|em))$/],
   "text-align": [/^(left|right|center|justify)$/],
   padding: [/.*/],
   "padding-top": [/.*/],
@@ -72,6 +90,11 @@ const LAYOUT_STYLE: Record<string, RegExp[]> = {
   "line-height": [/.*/],
   "list-style": [/.*/],
   gap: [/.*/],
+  "object-fit": [/^(contain|cover|fill|none|scale-down)$/],
+  "align-items": [/^(start|end|center|stretch|flex-start|flex-end|baseline)$/],
+  "justify-content": [/^(start|end|center|stretch|space-between|space-around|space-evenly|flex-start|flex-end)$/],
+  "flex-direction": [/^(row|row-reverse|column|column-reverse)$/],
+  "flex-wrap": [/^(nowrap|wrap|wrap-reverse)$/],
 };
 
 const SANITIZE_OPTS: sanitizeHtml.IOptions = {
@@ -87,6 +110,16 @@ const SANITIZE_OPTS: sanitizeHtml.IOptions = {
     "sup",
     "sub",
     "section",
+    "mark",
+    "table",
+    "thead",
+    "tbody",
+    "tfoot",
+    "tr",
+    "th",
+    "td",
+    "colgroup",
+    "col",
   ]),
   allowedAttributes: {
     ...sanitizeHtml.defaults.allowedAttributes,
@@ -102,13 +135,34 @@ const SANITIZE_OPTS: sanitizeHtml.IOptions = {
       "class",
       "data-original-width",
       "data-original-height",
+      "data-width",
+      "data-align",
     ],
-    iframe: ["src", "width", "height", "allow", "allowfullscreen", "title"],
-    "*": ["style", "class", "id", "dir", "lang"],
+    iframe: [
+      "src",
+      "width",
+      "height",
+      "allow",
+      "allowfullscreen",
+      "frameborder",
+      "title",
+      "class",
+    ],
+    div: ["style", "class", "id", "dir", "lang", "data-youtube-video"],
+    table: ["style", "class"],
+    th: ["style", "class", "colspan", "rowspan", "colwidth"],
+    td: ["style", "class", "colspan", "rowspan", "colwidth"],
+    "*": ["style", "class", "id", "dir", "lang", "data-width", "data-align"],
   },
   allowedStyles: { "*": LAYOUT_STYLE },
   allowedSchemes: ["http", "https", "mailto"],
-  allowedIframeHostnames: ["www.youtube.com", "youtube.com", "player.vimeo.com"],
+  allowedIframeHostnames: [
+    "www.youtube.com",
+    "youtube.com",
+    "www.youtube-nocookie.com",
+    "youtube-nocookie.com",
+    "player.vimeo.com",
+  ],
   transformTags: {
     a: (tagName, attribs) => {
       const out = { ...attribs };
@@ -218,12 +272,14 @@ let _cache: Post[] | null = null;
 /** Reset the in-memory cache so a freshly published post is picked up immediately. */
 export function invalidatePostsCache(): void {
   _cache = null;
+  _metaCache = null;
+  _metaCacheAt = 0;
 }
 
 /** Shared sanitizer options (also used to sanitize automation content at ingest). */
 export { SANITIZE_OPTS };
 
-export function getAllPosts(): Post[] {
+function getFilePosts(): Post[] {
   if (_cache) return _cache;
   if (!existsSync(POSTS_DIR)) return [];
   const posts: Post[] = [];
@@ -245,23 +301,156 @@ export function getAllPosts(): Post[] {
   return posts;
 }
 
-export function getAllPostMeta(): PostMeta[] {
-  return getAllPosts().map(({ contentHtml: _c, ...rest }) => rest);
+/* ───────────────── store-backed posts (written in /admin) ───────────────── */
+
+/** Render a stored record's source into the same sanitized HTML the site uses. */
+export function renderRecordHtml(record: Pick<PostRecord, "format" | "body">): string {
+  const raw =
+    record.format === "markdown"
+      ? (marked.parse(record.body || "", { async: false }) as string)
+      : record.body || "";
+  return sanitizeHtml(raw, SANITIZE_OPTS);
 }
 
-export function getPost(slug: string): Post | null {
-  return getAllPosts().find((p) => p.slug === slug) || null;
+function recordToPost(record: PostRecord): Post {
+  const html = renderRecordHtml(record);
+  return {
+    slug: record.slug,
+    title: record.title || "Untitled",
+    excerpt: record.excerpt || plain(html),
+    author: record.author || "Nazia Firdous",
+    publishedAt: record.publishedAt,
+    updatedAt: record.updatedAt || record.publishedAt,
+    categories: record.categories || [],
+    cover: record.cover || null,
+    contentHtml: html,
+    readingMinutes: Math.max(1, Math.round(wordCount(html) / 200)),
+    status: record.status,
+    source: record.source || "editor",
+    oldPath: null,
+  };
 }
 
-export function getPostsByCategorySlug(catSlug: string): Post[] {
-  return getAllPosts().filter((p) =>
+let _metaCache: PostMeta[] | null = null;
+let _metaCacheAt = 0;
+
+/**
+ * The merged list is cached so one render pass does not re-read the store for
+ * every component. The TTL matters in production: an edit saved by one
+ * serverless instance leaves any other warm instance holding a stale module
+ * cache, and without an expiry that instance would serve the old content until
+ * it was recycled.
+ */
+const META_TTL_MS = 30_000;
+
+function sortByDateDesc<T extends { publishedAt: string | null }>(items: T[]): T[] {
+  return items.sort((a, b) => {
+    const da = a.publishedAt || "";
+    const db = b.publishedAt || "";
+    return da < db ? 1 : da > db ? -1 : 0;
+  });
+}
+
+/**
+ * Metadata for every published post, from both sources. This is what list
+ * views, the sitemap and the RSS feed use — no post bodies are loaded.
+ */
+export async function getAllPostMeta(): Promise<PostMeta[]> {
+  if (_metaCache && Date.now() - _metaCacheAt < META_TTL_MS) return _metaCache;
+
+  const fileMeta: PostMeta[] = getFilePosts().map(({ contentHtml: _c, ...rest }) => rest);
+
+  let storedMeta: PostMeta[] = [];
+  let overridden = new Set<string>();
+  try {
+    const stored = await listStoredPosts();
+    // A stored post OVERRIDES a repo file with the same slug: that is how an
+    // edit to one of the 73 migrated articles takes effect, and how unpublishing
+    // one hides it (the override is kept but its status is "draft").
+    overridden = new Set(stored.map((r) => r.slug));
+    storedMeta = stored
+      .filter((r) => r.status === "published")
+      .map((r) => ({
+        slug: r.slug,
+        title: r.title || "Untitled",
+        excerpt: r.excerpt || "",
+        author: r.author || "Nazia Firdous",
+        publishedAt: r.publishedAt,
+        updatedAt: r.updatedAt || r.publishedAt,
+        categories: r.categories || [],
+        cover: r.cover || null,
+        readingMinutes: 1,
+        status: r.status,
+        source: r.source || "editor",
+        oldPath: null,
+      }));
+  } catch (e) {
+    // A store outage must never take the public site down — the 73 migrated
+    // articles still render from the repo.
+    console.error("[posts] content store unavailable:", e);
+  }
+
+  const files = fileMeta.filter((p) => !overridden.has(p.slug));
+  _metaCache = sortByDateDesc([...files, ...storedMeta]);
+  _metaCacheAt = Date.now();
+  return _metaCache;
+}
+
+/** One published post with its body. */
+export async function getPost(slug: string): Promise<Post | null> {
+  // The store is checked first so an edited version of a migrated article wins.
+  try {
+    const record = await getStoredPost(slug);
+    if (record) return record.status === "published" ? recordToPost(record) : null;
+  } catch (e) {
+    console.error(`[posts] could not load stored post ${slug}:`, e);
+  }
+  return getFilePosts().find((p) => p.slug === slug) || null;
+}
+
+/**
+ * The editable source behind a repo file — the markdown a `.md` post was
+ * written in, or the raw HTML of a migrated `.json` post. Needed so the admin
+ * editor can open one of the 73 migrated articles without mangling it.
+ */
+export function getFilePostSource(
+  slug: string
+): { format: "markdown" | "html"; body: string } | null {
+  for (const ext of [".json", ".md", ".mdx"] as const) {
+    const file = join(POSTS_DIR, `${slug}${ext}`);
+    if (!existsSync(file)) continue;
+    const raw = readFileSync(file, "utf8");
+    if (ext === ".json") {
+      try {
+        return { format: "html", body: JSON.parse(raw).contentHtml || "" };
+      } catch {
+        return null;
+      }
+    }
+    return { format: "markdown", body: parseFrontmatter(raw).body };
+  }
+  return null;
+}
+
+/** Metadata for the repo files only — the admin list needs these separately. */
+export function getAllFilePostMeta(): PostMeta[] {
+  return getFilePosts().map(({ contentHtml: _c, ...rest }) => rest);
+}
+
+/** Slugs only — for generateStaticParams. */
+export async function getAllPostSlugs(): Promise<string[]> {
+  return (await getAllPostMeta()).map((p) => p.slug);
+}
+
+export async function getPostsByCategorySlug(catSlug: string): Promise<PostMeta[]> {
+  return (await getAllPostMeta()).filter((p) =>
     p.categories.some((c) => slugifyLabel(c) === catSlug)
   );
 }
 
-export function getRelatedPosts(post: Post, limit = 3): PostMeta[] {
+export async function getRelatedPosts(post: Post, limit = 3): Promise<PostMeta[]> {
   const set = new Set(post.categories.map(slugifyLabel));
-  return getAllPostMeta()
+  return (await getAllPostMeta())
     .filter((p) => p.slug !== post.slug)
     .map((p) => ({
       p,

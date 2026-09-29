@@ -11,9 +11,10 @@ export const metadata: Metadata = {
   alternates: { canonical: "/topics" },
 };
 
-export default function TopicsPage() {
-  const allTopics = getAllTopics();
-  const substantial = getSubstantialTopics(3);
+export default async function TopicsPage() {
+  const allTopics = await getAllTopics();
+  const topicsBySlug = new Map(allTopics.map((t) => [t.slug, t]));
+  const substantial = await getSubstantialTopics(3);
 
   // Slugs already surfaced as pillars or in the main cloud — so the
   // "All tags" disclosure only carries the genuine long tail.
@@ -43,7 +44,7 @@ export default function TopicsPage() {
         <div className="flex flex-wrap justify-center gap-3">
           {site.featuredTopics.map((t, i) => {
             // Resolve the real label/count where available; fall back to config.
-            const topic = getTopic(t.slug);
+            const topic = topicsBySlug.get(t.slug);
             return (
               <Chip
                 key={t.slug}

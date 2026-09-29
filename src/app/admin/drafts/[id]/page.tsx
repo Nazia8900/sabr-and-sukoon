@@ -11,7 +11,7 @@ export default async function DraftReviewPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const draft = getDraft(id);
+  const draft = await getDraft(id);
   if (!draft) notFound();
   const previewHtml = draftToHtml(draft);
 

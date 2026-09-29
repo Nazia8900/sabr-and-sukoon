@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/blog" },
 };
 
-export default function BlogIndex() {
-  const posts = getAllPostMeta();
+export default async function BlogIndex() {
+  const posts = await getAllPostMeta();
   // Curated pillars (slug-based) drive the chip set — these match /topics/[slug].
   const topics = site.featuredTopics;
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPost, getRelatedPosts, slugifyLabel } from "@/lib/posts";
+import { getAllPostSlugs, getPost, getRelatedPosts, slugifyLabel } from "@/lib/posts";
 import { postMetadata, articleLd, breadcrumbLd } from "@/lib/seo";
 import { formatDate } from "@/lib/format";
 import JsonLd from "@/components/JsonLd";
@@ -12,6 +12,8 @@ import ReadingProgress from "@/components/ReadingProgress";
 import TableOfContents, { type TocItem } from "@/components/TableOfContents";
 import { site } from "@/lib/site";
 
+// Publishing calls revalidatePath, so changes appear immediately; this hourly
+// revalidate is only a backstop in case an on-demand refresh is ever missed.
 export const revalidate = 3600;
 export const dynamicParams = true;
 
@@ -64,8 +66,8 @@ function buildToc(html: string): { html: string; items: TocItem[] } {
   return { html: rewritten, items };
 }
 
-export function generateStaticParams() {
-  return getAllPosts().map((p) => ({ slug: p.slug }));
+export async function generateStaticParams() {
+  return (await getAllPostSlugs()).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -74,8 +76,10 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPost(slug);
-  if (!post) return { title: "Not found" };
+  const post = await getPost(slug);
+  // Served with a 200 by Next despite rendering the not-found page, so make it
+  // explicitly non-indexable rather than let a soft 404 into the search index.
+  if (!post) return { title: "Not found", robots: { index: false, follow: false } };
   return postMetadata(post);
 }
 
@@ -85,10 +89,10 @@ export default async function PostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = await getPost(slug);
   if (!post) notFound();
 
-  const related = getRelatedPosts(post, 3);
+  const related = await getRelatedPosts(post, 3);
 
   const { html: contentHtml, items: tocItems } = buildToc(post.contentHtml);
   // Only surface a TOC when there's enough structure to navigate.

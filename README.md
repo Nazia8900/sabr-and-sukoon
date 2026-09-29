@@ -46,8 +46,8 @@ npm run migrate
 npm run dev                     # http://localhost:3000
 ```
 
-A working `.env.local` is already present for local development.
-Default admin login: **username `nazia`**, **password `sabr-admin-2026`** — change before launch.
+Create `.env.local` from `.env.example` and fill it with the values `npm run seed-admin`
+prints. Set a strong admin password before launch — never ship the one you developed with.
 
 ---
 
@@ -83,15 +83,55 @@ When the world feels dark, remember **Ad-Duha**…
 
 ---
 
-## 🔐 Admin
+## 🔐 Admin — the editorial dashboard
 
-1. Go to `/admin` → you'll be redirected to `/admin/login`.
-2. Sign in with your `ADMIN_USERNAME` / password.
-3. The dashboard shows the **review queue** of incoming drafts.
-4. Open a draft → edit title/slug/excerpt/topics/cover → **Approve & publish** (or Delete).
+Sign in at `/admin` with your `ADMIN_USERNAME` / password. Sessions are signed JWTs in an
+httpOnly cookie; `/admin` and `/api/admin/*` are guarded by middleware.
 
-Sessions are signed JWTs in an httpOnly cookie; `/admin` and `/api/admin/*` are guarded by
-middleware.
+| Screen | What it does |
+|--------|--------------|
+| **Dashboard** (`/admin`) | Counts, recent posts, one-click "Write a new post", export. |
+| **Posts** (`/admin/posts`) | Every article — migrated and new — searchable, filterable by published/draft. |
+| **Editor** (`/admin/posts/new`, `/admin/posts/<slug>`) | Visual page builder with rich text, images, reusable blocks, HTML source, preview, publishing and deletion. |
+| **Automation** (`/admin/drafts`) | The review queue for drafts pushed in by `POST /api/ingest`. |
+
+### The editor
+
+- **Visual writing** supports headings, font family and size, text/background colours,
+  alignment, line spacing, links, lists, quotes, dividers, tables and YouTube embeds.
+- **Images** can be uploaded, dragged or pasted into the article, reused from the media
+  library, resized, aligned and given accessible alt text. Covers use the same library.
+- **Designed blocks** insert the site's own Quran, Hadith, Dua, takeaway, reflection and
+  step components, styled by `globals.css`.
+- **Visual / HTML / Preview modes** make normal editing approachable while preserving an
+  escape hatch for bespoke markup. Preview runs through the same sanitizer and article
+  stylesheet as the published page.
+- **Post settings** cover slug (auto-generated from the title until you edit it), publication
+  date, excerpt/SEO preview, topics, cover image and author.
+- Draft, publish, unpublish and delete actions are available in the editor. `Ctrl`/`Cmd`+`S`
+  saves; local recovery and an unsaved-changes warning protect work in progress.
+
+### New posts vs. migrated ones
+
+Posts written here are stored as sanitized **HTML**. The 73 articles migrated from Blogger
+open in the same visual editor; their original structure and styled containers are retained.
+Legacy markdown records are converted to HTML when they are edited.
+
+Editing a migrated article writes an *override* into the content store — the original file
+in `content/posts/` is left untouched, and the site prefers the override. Deleting a
+migrated article therefore **hides** it rather than erasing it; deleting a post written in
+the editor removes it outright.
+
+### Where posts are stored
+
+| Environment | Store |
+|-------------|-------|
+| Production (Vercel) | One connected **private Vercel Blob** store for post/draft JSON and uploaded images. The application streams article images through its own `/media/*` route. |
+| Local development | Post JSON goes to `content/editor-posts/`; images go to `public/uploads/`. Both runtime folders are git-ignored and need no configuration. |
+
+Blobs are written with `access: "private"`, so an unpublished draft is never readable over
+the web. **Export all posts** in the dashboard downloads every article — migrated and new —
+as a single JSON file, so the content is never dependent on one service.
 
 ---
 
@@ -149,13 +189,17 @@ first import. Env vars are only needed to enable the admin login and automation.
 6. After DNS propagates, set the primary domain to `www` (or apex) in Vercel.
 7. Add the property in **Google Search Console** and submit `https://www.sabrandsukoon.online/sitemap.xml`.
 
-### ⚠️ Production note on the draft store
+### Storage on Vercel
 
-The draft queue uses a **file adapter** (`content/drafts/`) which works locally and on any
-host with a writable disk. Vercel's serverless filesystem is **read-only**, so for
-automation in production, swap the internals of `src/lib/drafts.ts` for a database/KV
-(Vercel KV, Vercel Postgres, Turso, Neon…). The function signatures stay the same — only
-that one file changes. Published posts (git-committed files) work on Vercel as-is.
+Vercel's serverless filesystem is read-only, so runtime content uses the project's connected
+**private Vercel Blob** store. Its standard `BLOB_READ_WRITE_TOKEN` / `BLOB_STORE_ID`
+credentials hold post JSON, automation drafts and uploaded media. Article images are fetched
+server-side from that store and streamed through `/media/*`, so no second public store or
+custom media token is needed. Without the store, migrated file-based articles still render,
+but admin saves and production image uploads fail.
+
+Locally, no storage setup is needed: content writes to `content/editor-posts/` and
+`content/drafts/`, and image uploads write to `public/uploads/`.
 
 ---
 

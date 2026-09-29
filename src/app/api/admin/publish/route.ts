@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
 
   const { id, ...overrides } = body;
   try {
-    const slug = publishDraft(id, overrides);
+    const slug = await publishDraft(id, overrides);
     invalidatePostsCache(); // ensure the new post appears immediately
     // refresh affected routes
     revalidatePath("/");

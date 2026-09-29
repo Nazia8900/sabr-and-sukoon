@@ -7,12 +7,14 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbLd } from "@/lib/seo";
 import { site } from "@/lib/site";
 
+// Publishing calls revalidatePath, so changes appear immediately; this hourly
+// revalidate is only a backstop in case an on-demand refresh is ever missed.
 export const revalidate = 3600;
 export const dynamicParams = true;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // Pre-render the substantial topics; the rest render on demand.
-  return getSubstantialTopics(2).map((t) => ({ slug: t.slug }));
+  return (await getSubstantialTopics(2)).map((t) => ({ slug: t.slug }));
 }
 
 export async function generateMetadata({
@@ -21,8 +23,11 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const topic = getTopic(slug);
-  if (!topic) return { title: "Topic not found" };
+  const topic = await getTopic(slug);
+  // Served with a 200 by Next despite rendering the not-found page, so make it
+  // explicitly non-indexable rather than let a soft 404 into the search index.
+  if (!topic)
+    return { title: "Topic not found", robots: { index: false, follow: false } };
   return {
     title: `${topic.name}`,
     description: `${topic.count} articles on ${topic.name} from ${site.name}.`,
@@ -36,9 +41,9 @@ export default async function TopicPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const topic = getTopic(slug);
+  const topic = await getTopic(slug);
   if (!topic) notFound();
-  const posts = getPostsByCategorySlug(slug);
+  const posts = await getPostsByCategorySlug(slug);
   const count = posts.length;
 
   return (

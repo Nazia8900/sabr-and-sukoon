@@ -35,7 +35,7 @@ export default async function AuthorPage({
   const { slug } = await params;
   if (slug !== site.author.slug) notFound();
   const a = site.author;
-  const posts = getAllPostMeta().filter(
+  const posts = (await getAllPostMeta()).filter(
     (p) => p.author === a.name || p.author === "The sukoon seeker"
   );
 

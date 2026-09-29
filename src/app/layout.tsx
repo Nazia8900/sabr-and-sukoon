@@ -18,8 +18,8 @@ const amiri = Amiri({
 
 export const metadata: Metadata = baseMetadata();
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const topics = getAllTopics().slice(0, 6);
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const topics = (await getAllTopics()).slice(0, 6);
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable} ${amiri.variable}`}>
       <body className="flex min-h-screen flex-col">

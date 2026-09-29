@@ -36,3 +36,10 @@ yarn-error.log*
 # runtime draft queue (file adapter) — keep the folder, ignore generated drafts
 /content/drafts/*.json
 !/content/drafts/.gitkeep
+
+# local content store for the admin editor (production writes to Vercel Blob,
+# so these files are development-only and never read by a deployment)
+/content/editor-posts/
+
+# locally uploaded editor media (production uses a public Vercel Blob store)
+/public/uploads/

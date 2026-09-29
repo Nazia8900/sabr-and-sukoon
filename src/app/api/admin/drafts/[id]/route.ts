@@ -16,7 +16,7 @@ export async function PATCH(
   if (!(await guard()))
     return NextResponse.json({ ok: false, error: "Unauthorized" }, { status: 401 });
   const { id } = await params;
-  const draft = getDraft(id);
+  const draft = await getDraft(id);
   if (!draft) return NextResponse.json({ ok: false, error: "Not found" }, { status: 404 });
 
   const body = await req.json().catch(() => ({}));
@@ -26,7 +26,7 @@ export async function PATCH(
     id: draft.id,
     status: "draft" as const,
   };
-  saveDraft(updated);
+  await saveDraft(updated);
   return NextResponse.json({ ok: true });
 }
 
@@ -37,6 +37,6 @@ export async function DELETE(
   if (!(await guard()))
     return NextResponse.json({ ok: false, error: "Unauthorized" }, { status: 401 });
   const { id } = await params;
-  deleteDraft(id);
+  await deleteDraft(id);
   return NextResponse.json({ ok: true });
 }
