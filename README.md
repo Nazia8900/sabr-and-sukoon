@@ -6,7 +6,7 @@ with a **draft-only automation pipeline** and a **full admin login**.
 
 > Islamic wellness blog for Muslim women — Quran, Hadith & psychology for inner peace.
  
----
+--- 
 
 ## ✨ What's included
 
