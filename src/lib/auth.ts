@@ -16,8 +16,11 @@ import { cookies } from "next/headers";
 export const SESSION_COOKIE = "ss_admin_session";
 const MAX_AGE = 60 * 60 * 8; // 8 hours
 const ADMIN_USERNAME = "nazia";
-const ADMIN_PASSWORD_HASH =
-  "$2a$12$kM4pFemCwRQ3Xtd0fcZt6uC791PPdSwLG5KZyaqIM1TRRCBJWrRvq";
+const ADMIN_PASSWORD_HASH_B64 = process.env.ADMIN_PASSWORD_HASH ?? "";
+const ADMIN_PASSWORD_HASH = Buffer.from(
+  ADMIN_PASSWORD_HASH_B64,
+  "base64",
+).toString("utf8");
 
 function secret(): Uint8Array {
   const s = process.env.AUTH_SECRET;
