@@ -1,3 +1,13 @@
+---
+slug: "3-am-anxiety-in-islam-what-to-do-when"
+title: "3 AM Anxiety in Islam - What to Do When You Cannot Sleep at Night"
+excerpt: "The Night You Cannot Sleep - What Islam Says About 3 AM Anxiety (Raat Ki Bechaqni - Jab Neend Nahi Aati). It's 3 AM. You're Wide Awake. And the Darkness Feels..."
+author: "Nazia Firdous"
+date: "2026-05-11"
+published: true
+---
+
+It's 3 AM. You're Wide Awake. And the Darkness Feels...
 {
   "slug": "3-am-anxiety-in-islam-what-to-do-when",
   "title": "3 AM Anxiety in Islam – What to Do When You Cannot Sleep at Night",
