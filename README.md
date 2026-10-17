@@ -10,7 +10,7 @@ with a **draft-only automation pipeline** and a **full admin login**.
 
 ## ✨ What's included
 
-- **73 articles migrated from Blogger** — with their original bespoke styling (ayah boxes,
+- **74 articles migrated from Blogger** — with their original bespoke styling (ayah boxes,
   section cards, series badges) preserved, plus **301 redirects** from every old
   `/YYYY/MM/slug.html` URL so no SEO is lost.
 - **Design system** — calm emerald / cream / gold palette from the brand logo, serif +
