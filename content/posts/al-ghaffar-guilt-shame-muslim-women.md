@@ -25,13 +25,11 @@ She apologized within the hour. It was accepted. And still, three days later, sh
 
 The mistake was small. The spiral it triggered was not.
 
-> وَهُوَ الْغَفُورُ الرَّحِيمُ
+وَهُوَ الْغَفُورُ الرَّحِيمُ
 
 "And He is the Forgiving, the Merciful."
 
 — Surah Saba, 34:2
-
-
 
 01 🌀 Why One Mistake Turns Into a Spiral
 
@@ -48,11 +46,9 @@ One can be repaired. The other feels impossible to escape — which is exactly w
 
 Allah says in a hadith qudsi:
 
-> "O son of Adam, were your sins to reach the clouds of the sky, and then you were to ask forgiveness of Me, I would forgive you."
+"O son of Adam, were your sins to reach the clouds of the sky, and then you were to ask forgiveness of Me, I would forgive you."
 
 — At-Tirmidhi 3540, graded hasan sahih
-
-
 
 This is not a hadith about small, forgivable mistakes only. It describes sins piled as high as the sky — and still, forgiveness is offered the moment it's sincerely sought.
 
@@ -64,11 +60,9 @@ Al-Ghaffar — The Repeatedly Forgiving — describes a forgiveness that isn't a
 
 Unlike human patience, which understandably wears thin with repetition, Al-Ghaffar's forgiveness does not diminish with how often it's needed — only with whether it's sincerely sought.
 
-> 💭 A Moment to Sit With
+💭 A Moment to Sit With
 
 "The mistake you keep replaying was already covered the moment you sincerely turned back to Allah. The spiral isn't protecting you from anything — it's just keeping you somewhere Al-Ghaffar already moved you past."
-
-
 
 🧠 What Psychology Says About Guilt Vs. Shame
 
@@ -78,13 +72,11 @@ Self-compassion research further shows that people who treat themselves with the
 
 03 🌿 Guilt Spiral Vs. Al-Ghaffar Mindset
 
-Guilt Spiral Says	Al-Ghaffar Teaches
-
-This mistake proves who I really am	A mistake is something you did, not who you are
-I have to keep punishing myself to prove remorse	Sincere tawbah is what closes the matter, not ongoing suffering
-If I mess up again, I'm unforgivable	Al-Ghaffar's forgiveness renews every time it's sought
-Replaying it shows I care	Moving forward after tawbah is what obedience looks like
-
+Guilt Spiral Says| Al-Ghaffar Teaches
+This mistake proves who I really am| A mistake is something you did, not who you are
+I have to keep punishing myself to prove remorse| Sincere tawbah is what closes the matter, not ongoing suffering
+If I mess up again, I'm unforgivable| Al-Ghaffar's forgiveness renews every time it's sought
+Replaying it shows I care| Moving forward after tawbah is what obedience looks like
 
 04 🌸 3 Steps to Break a Guilt Spiral
 
@@ -104,9 +96,7 @@ Redirect the energy spent replaying the mistake into one concrete step forward �
 
 Du'a for Forgiveness (Sayyid al-Istighfar)
 
-> "Allahumma anta Rabbi la ilaha illa anta... abu'u laka bini'matika 'alayya wa abu'u bidhanbi faghfir li fa innahu la yaghfiru adh-dhunuba illa anta."
-
-
+"Allahumma anta Rabbi la ilaha illa anta... abu'u laka bini'matika 'alayya wa abu'u bidhanbi faghfir li fa innahu la yaghfiru adh-dhunuba illa anta."
 
 "O Allah, You are my Lord, none has the right to be worshipped except You... I acknowledge Your favor upon me and I acknowledge my sin, so forgive me, for none forgives sins except You."
 
@@ -125,7 +115,6 @@ Guilt is feeling bad about a specific action; shame is feeling bad about oneself
 Does Allah really forgive the same sin repeatedly?
 
 Yes — authentic hadith describe Allah's forgiveness as available even for repeated sins, as long as forgiveness is sincerely sought each time.
-
 
 ---
 
