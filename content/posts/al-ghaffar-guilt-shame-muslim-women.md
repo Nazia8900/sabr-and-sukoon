@@ -1,6 +1,19 @@
 
----
-
+| Field | Content |
+|---|---|
+| slug | al-ghaffar-guilt-shame-muslim-women |
+| title | Guilt Spirals Vs. Al-Ghaffar: Why One Mistake Doesn't Define You |
+| excerpt | One mistake can spiral into days of guilt and shame. Discover how Al-Ghaffar, Allah's Name meaning The Repeatedly Forgiving, teaches sincere tawbah, self-compassion, and freedom from guilt spirals through Quranic wisdom and psychology. |
+| author | The Sukoon Seeker |
+| date | 2026-07-09 |
+| updatedAt | 2026-07-10 |
+| published | true |
+| status | published |
+| category | Islamic Wellness |
+| series | Asma-ul-Husna for the Anxious Heart |
+| source | feed.atom backup |
+| oldPath | /2026/07/al-ghaffar-guilt-shame-muslim-women.html |
+| original_url | https://www.sabrandsukoon.online/2026/07/al-ghaffar-guilt-shame-muslim-women.html |
 title: "Guilt Spirals Vs. Al-Ghaffar: Why One Mistake Doesn't Define You"
 date: "2026-07-09"
 updatedAt: "2026-07-10"
