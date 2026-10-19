@@ -1,11 +1,15 @@
 ---
 title: "Prophet Muhammad ﷺ – The Greatest Leader in Human History"
+slug: "prophet-muhammad-greatest-leader"
 description: "What made Prophet Muhammad ﷺ the greatest leader in history? Explore 10 timeless leadership qualities backed by Quran, Hadith, and modern leadership science."
 author: Nazia Firdous
 date: 2025-09-12
 updated: 2026-08-27
 tags: [Islamic Leadership, Seerah, Prophet Muhammad]
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha7Wgr4oHIsyRcqPO3m4IuO3H3lVHSgHjlGQq3_BGzR7KJ_CBTtxIX8a8_js9TVzdQJw0NnGjUUL8P_H_ITj51nb46JdDzndJJ0PMhRURhjk5c7XVJN5-S3gx0r2RZ3i43eZ_wfFskMgE3/s1600/prophet-muhammad-role-model.webp"
+image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha7Wgr4oHIsyRcqPO3m4IuO3H3lVHSgHjlGQq3_BGzR7KJ_CBTtxIX8a8_js9TVzdQJw0NnGjUUL8P_H_ITj51nb46JdDzndJJ0PMhRURhjk5c7XVJN5-S3gx0r2RZ3i43eZ_wfFskMgE3/s1600/prophet-muhammad-role-model.webp"
 ---
+![Prophet Muhammad ﷺ - Role Model](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha7Wgr4oHIsyRcqPO3m4IuO3H3lVHSgHjlGQq3_BGzR7KJ_CBTtxIX8a8_js9TVzdQJw0NnGjUUL8P_H_ITj51nb46JdDzndJJ0PMhRURhjk5c7XVJN5-S3gx0r2RZ3i43eZ_wfFskMgE3/s1600/prophet-muhammad-role-model.webp)
 
 # Prophet Muhammad ﷺ — The Greatest Leader in Human History
 
