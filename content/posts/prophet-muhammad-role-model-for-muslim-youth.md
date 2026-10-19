@@ -4,6 +4,7 @@ date: "2026-08-27"
 updated_date: "2026-08-27"
 original_url: "https://www.sabrandsukoon.online/2025/09/prophet-muhammad-role-model-for-muslim-youth.html"
 slug: "prophet-muhammad-role-model-for-muslim-youth"
+thumbnail: "https://unsplash.com"
 source: "feed.atom backup"
 ---
 
