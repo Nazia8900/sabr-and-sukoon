@@ -1,5 +1,5 @@
 ---
-title: Influencers vs. Prophet Muhammad ﷺ: Who Should Muslim Youth Really Follow?
+title: "Influencers vs. Prophet Muhammad ﷺ: Who Should Muslim Youth Really Follow?"
 date: 2026-08-27
 updated_date: 2026-08-27
 original_url: https://www.sabrandsukoon.online/2025/09/prophet-muhammad-role-model-for-muslim-youth.html
