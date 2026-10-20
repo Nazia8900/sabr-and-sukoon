@@ -4,9 +4,8 @@ date: "2026-08-27"
 updated_date: "2026-08-27"
 original_url: "https://www.sabrandsukoon.online/2025/09/prophet-muhammad-role-model-for-muslim-youth.html"
 slug: "prophet-muhammad-role-model-for-muslim-youth"
-cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
-image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha7Wgr4oHIsyRcqPO3m4IuO3H3lVHSgHjlGQq3_BGzR7KJ_CBTtxIX8a8_js9TVzdQJw0NnGjUUL8P_H_ITj51nb46JdDzndJJ0PMhRURhjk5c7XVJN5-S3gx0r2RZ3i43eZ_wfFskMgE3/s1600/prophet-muhammad-role-model.webp"
 ---
 
 Home › Seerah › Prophet Muhammad ﷺ — Role Model
