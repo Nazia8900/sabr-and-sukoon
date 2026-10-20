@@ -8,7 +8,6 @@ cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha7Wgr4oHIsyR
 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha7Wgr4oHIsyRcqPO3m4IuO3H3lVHSgHjlGQq3_BGzR7KJ_CBTtxIX8a8_js9TVzdQJw0NnGjUUL8P_H_ITj51nb46JdDzndJJ0PMhRURhjk5c7XVJN5-S3gx0r2RZ3i43eZ_wfFskMgE3/s1600/prophet-muhammad-role-model.webp"
 source: "feed.atom backup"
 ---
-
 Home
 ›
 Seerah
