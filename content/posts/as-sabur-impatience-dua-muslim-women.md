@@ -1,3 +1,4 @@
+
 ---
 title: "Impatience vs As-Sabur: Why Your Dua Isn't Being Ignored"
 date: "2026-08-22"
@@ -5,10 +6,9 @@ updated_date: "2026-08-22"
 original_url: "https://www.sabrandsukoon.online/2026/07/as-sabur-impatience-dua-muslim-women.html"
 slug: "as-sabur-impatience-dua-muslim-women"
 source: "feed.atom backup"
-https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
+image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
 ---
-![Impatience vs As-Sabur](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp)
-
 Home
 ›
 Asma-ul-Husna Series
