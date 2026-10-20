@@ -4,8 +4,8 @@ date: "2026-08-27"
 updated_date: "2026-08-27"
 original_url: "https://www.sabrandsukoon.online/2025/09/prophet-muhammad-role-model-for-muslim-youth.html"
 slug: "prophet-muhammad-role-model-for-muslim-youth"
-cover: "/influencers.webp"
-image: "/influencers.webp"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
+image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
 source: "feed.atom backup"
 ---
 
