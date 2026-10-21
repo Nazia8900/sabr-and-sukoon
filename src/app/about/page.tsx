@@ -61,7 +61,7 @@ export default function AboutPage() {
       <h2>Connect With Me</h2>
       <p>
         🎥{" "}
-        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://youtube.com/@sabrandsukoon-id" target="_blank" rel="noopener noreferrer">
           YouTube &mdash; Sabr and Sukoon
         </a>
         <br />
