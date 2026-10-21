@@ -28,7 +28,7 @@ export default function ContactPage() {
       <ul>
         <li>
           YouTube:{" "}
-          <a href="https://youtube.com/@sabrandsukoon-id?si=Md8tUcDHTQhHo2qS" target="_blank" rel="noopener noreferrer">
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
             Sabr and Sukoon
           </a>
         </li>
@@ -40,7 +40,7 @@ export default function ContactPage() {
         </li>
         <li>
           WhatsApp Channel:{" "}
-          <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://whatsapp.com/channel/0029VbDWp8eBPzjb4lLha33X" target="_blank" rel="noopener noreferrer">
             Follow Sabr and Sukoon | Islamic Wellness
           </a>
         </li>
