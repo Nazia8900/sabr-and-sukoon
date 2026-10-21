@@ -61,8 +61,13 @@ export default function AboutPage() {
       <h2>Connect With Me</h2>
       <p>
         🎥{" "}
-        <a href={site.socials.youtube} target="_blank" rel="noopener noreferrer">
-          YouTube &mdash; SabrandSukoon
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          YouTube &mdash; Sabr and Sukoon
+        </a>
+        <br />
+        📱{" "}
+        <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+          WhatsApp Channel &mdash; Follow for Daily Updates
         </a>
         <br />
         📸{" "}
