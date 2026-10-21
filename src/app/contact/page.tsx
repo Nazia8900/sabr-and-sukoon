@@ -28,14 +28,20 @@ export default function ContactPage() {
       <ul>
         <li>
           YouTube:{" "}
-          <a href={site.socials.youtube} target="_blank" rel="noopener noreferrer">
-            SabrandSukoon
+          <a href="https://youtube.com/@sabrandsukoon-id?si=Md8tUcDHTQhHo2qS" target="_blank" rel="noopener noreferrer">
+            Sabr and Sukoon
           </a>
         </li>
         <li>
           Instagram:{" "}
           <a href={site.socials.instagram} target="_blank" rel="noopener noreferrer">
             @sabrandsukoon82
+          </a>
+        </li>
+        <li>
+          WhatsApp Channel:{" "}
+          <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+            Follow Sabr and Sukoon | Islamic Wellness
           </a>
         </li>
       </ul>
