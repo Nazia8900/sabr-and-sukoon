@@ -1,4 +1,4 @@
- ---
+---
 title: "Ignored vs. Al-Mujeeb: Why Silence After Dua Isn't the Same as No"
 date: "2026-08-09"
 updated_date: "2026-08-09"
