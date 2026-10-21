@@ -1,13 +1,12 @@
 ---
 title: "Busy vs. Lonely: Why You Can Be Surrounded by People and Still Feel Alone"
-date: "2026-08-15"
-updated_date: "2026-08-15"
+date: "2026-08-11"
+updated_date: "2026-08-11"
 original_url: "https://www.sabrandsukoon.online/2026/08/loneliness-surrounded-by-people-islam.html"
 slug: "loneliness-surrounded-by-people-islam"
 source: "feed.atom backup"
 cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK6ssUhrmtBZ9AwjgdIqD4r6p0HPPZhsqlgVGC8pYQ6TQmK0kypbgMmlYn4Neft71MeDNu_fBuz1EoA-gUiy4gwkTcsq26Z0bw1n3wue9BAgamo_0Aqehb-qKERB83n67yAo-1qhW8imgdc4Luj9kBKR9pkXEenpGIT9TvUnKelNZu6JJfTNcBeNld37pb/s1536/1000295787.png"
 ---
-
 ✦ Islamic Wellness · Loneliness
 
 💡 **Content Integrity:** This article draws on authentic Quranic ayahs and hadith, including one graded sahih in Musnad Ahmad. It offers spiritual reflection on loneliness, not a substitute for professional mental health support.
