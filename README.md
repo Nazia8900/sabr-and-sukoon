@@ -8,7 +8,7 @@ with a **draft-only automation pipeline** and a **full admin login**.
  
 --- 
 
-## ✨ What's included
+## ✨ What's included 
 
 - **74 articles migrated from Blogger** — with their original bespoke styling (ayah boxes,
   section cards, series badges) preserved, plus **301 redirects** from every old
