@@ -6,7 +6,7 @@ updatedAt: "2026-06-20"
 author: "Nazia Firdous"
 excerpt: "Islam's hidden secret to contentment — Qana'at explained through Quran, hadith, and 2024 psychology research for Muslim women."
 published: true
-image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBecfuJZbMztD9CMtgsN6HqY4gJz8tbfgnD37gfUHvhBVZJNIXChyxUU8GN5b2EYH7GHNykwRyMAVqxPDP8IqWL5gkceVWDaXfL71NFDRw7OQBvFhLs1R5z88L9RXOycBP2qCkmVx7KUM5uM7vZG74_zVMhx76-t79zzKvEN5h8-wi-AeHLjr7oGajz6BU/s1600/Gemini_Generated_Image_13jf1r13jf1r13jf.png"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBecfuJZbMztD9CMtgsN6HqY4gJz8tbfgnD37gfUHvhBVZJNIXChyxUU8GN5b2EYH7GHNykwRyMAVqxPDP8IqWL5gkceVWDaXfL71NFDRw7OQBvFhLs1R5z88L9RXOycBP2qCkmVx7KUM5uM7vZG74_zVMhx76-t79zzKvEN5h8-wi-AeHLjr7oGajz6BU/s1600/Gemini_Generated_Image_13jf1r13jf1r13jf.png"
 ---
 
 <div class="separator" style="clear: both;">
