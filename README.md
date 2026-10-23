@@ -221,7 +221,7 @@ domain age — see the analysis notes from the project kickoff.
 
 ---
 
-## 🗂 Project structure
+## 🗂 Project structure 
 
 ```
 . (repo root = the app)
