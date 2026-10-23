@@ -5,7 +5,7 @@ date: "2026-06-20"
 updatedAt: "2026-06-20"
 author: "Nazia Firdous"
 excerpt: "Islam's hidden secret to contentment — Qana'at explained through Quran, hadith, and 2024 psychology research for Muslim women."
-status: "published"
+published: true
 ---
 
 <div class="separator" style="clear: both;">
