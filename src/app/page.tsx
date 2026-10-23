@@ -4,6 +4,7 @@ import { getAllPostMeta } from "@/lib/posts";
 import { slugifyLabel } from "@/lib/posts";
 import PostCard from "@/components/PostCard";
 import Chip from "@/components/Chip";
+import NewsletterForm from "@/components/NewsletterForm";
 import { formatDate } from "@/lib/format";
 import { site } from "@/lib/site";
 
@@ -187,6 +188,9 @@ export default async function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Newsletter signup */}
+        <NewsletterForm />
       </div>
     </>
   );
