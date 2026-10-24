@@ -1,9 +1,7 @@
 ---
 title: "The Essence of True Love for the Prophet ﷺ — Reflections on Iqbal's Wisdom"
 date: "2025-09-16"
-updated_date: "2026-08-25"
-original_url: "https://www.sabrandsukoon.online/2025/09/blog-post-ready-to-publish-title-ki.html"
-slug: "essence-of-love-prophet-muhammad-iqbal"
+slug: "essence-of-true-love-prophet"
 source: "feed.atom backup"
 cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixPQQKFQJu7YKkKLR0D2iB2Ch21BGCJKFmmP1RqaHmZe-yE3EDLRK9aBI_sunH_2AeMx71eP9Uo5-6QjZQbQZBlU0GLiH63qUhaLv9EqH3k_ahEQnPjlS5bjr1mYnLh69uKHD2gHm9i5M/s1600/essence-of-love-prophet-muhammad.webp"
 ---
@@ -14,7 +12,7 @@ Home › Islamic Spirituality › Love for Prophet Muhammad ﷺ
 
 # The Essence of True Love for the Prophet ﷺ — Reflections on Iqbal's Wisdom
 
-*By **Nazia Firdous (The Sukoon Seeker)** · Sabr and Sukoon · 8 min read*
+*By **Nazia Firdous (The Sukoon Seeker)** · Sabr and Sukoon · 6 min read*
 
 > **In Short:** What does it truly mean to love the Prophet ﷺ? Allama Iqbal's poetry reminds us that love without following the Sunnah is incomplete. This article explores the Quranic foundation of love for the Prophet ﷺ, practical ways to embody it, and how Iqbal's timeless verses invite us to a deeper faith.
 
@@ -29,7 +27,7 @@ Among Iqbal's most luminous teachings is this: that our bond with Allah ﷻ cann
 > *This world is nothing; even the Tablet and the Pen belong to you."*
 > — **Allama Iqbal**
 
-[Explore 10 qualities that made the Prophet ﷺ the greatest leader in human history](https://www.sabrandsukoon.online/2025/09/title-prophet-muhammad-greatest-leader.html).
+[Explore 10 qualities that made the Prophet ﷺ the greatest leader in human history](/posts/title-prophet-muhammad-greatest-leader)
 
 ## A Truth Wrapped in Beauty
 
@@ -60,7 +58,7 @@ He ﷺ was *Rahmatan lil 'Alameen* — a mercy to all worlds. Reflect his compas
 **04. Uphold His Character Under Pressure**
 Patience in hardship. Honesty in dealings. Gentleness in conflict. These are not just virtues — they are the visible signature of someone who loves the Prophet ﷺ.
 
-[Learn about the physical miracles of Prophet Muhammad ﷺ](https://www.sabrandsukoon.online/2025/09/blog-post-physical-miracles-of-prophet.html) that further deepen our love for him.
+[Learn about the physical miracles of Prophet Muhammad ﷺ](/posts/blog-post-physical-miracles-of-prophet) that further deepen our love for him.
 
 ## Final Reflection
 
@@ -88,25 +86,16 @@ The Lauh (Preserved Tablet) and Qalam (the Pen) represent, in Islamic tradition,
 ---
 
 **🏷️ Topic Tags:** 
-[Prophet Muhammad](https://www.sabrandsukoon.online/search/label/Prophet%20Muhammad) · [Iqbal](https://www.sabrandsukoon.online/search/label/Iqbal) · [Sunnah](https://www.sabrandsukoon.online/search/label/Sunnah) · [Islamic Spirituality](https://www.sabrandsukoon.online/search/label/Islamic%20Spirituality) · [Prophetic Guidance](https://www.sabrandsukoon.online/search/label/Prophetic%20Guidance)
+[Prophet Muhammad](/search/label/Prophet%20Muhammad) · [Iqbal](/search/label/Iqbal) · [Sunnah](/search/label/Sunnah) · [Islamic Spirituality](/search/label/Islamic%20Spirituality)
 
 ---
 *Written by Nazia Firdous (The Sukoon Seeker) — a teacher with over 20 years of experience, exploring the intersection of Quranic wisdom, authenticated hadith, and modern psychology for the Muslim woman quietly struggling to find her peace.*
 
 **Related Posts:**
-- [🌿 The Greatest Leader in Human History — 10 Qualities of Prophet Muhammad ﷺ](https://www.sabrandsukoon.online/2025/09/title-prophet-muhammad-greatest-leader.html)
-- [🌟 The Physical Miracles of Prophet Muhammad ﷺ](https://www.sabrandsukoon.online/2025/09/blog-post-physical-miracles-of-prophet.html)
-- [📖 Prophet Muhammad ﷺ — Role Model for Muslim Youth](https://www.sabrandsukoon.online/2025/09/prophet-muhammad-role-model-for-muslim-youth.html)
-- [💔 When Hearts Break — How to Reconnect with Allah](https://www.sabrandsukoon.online/2025/07/when-hearts-break-how-to-reconnect-with.html)
+- [🌿 The Greatest Leader in Human History — 10 Qualities of Prophet Muhammad ﷺ](/posts/title-prophet-muhammad-greatest-leader)
+- [🌟 The Physical Miracles of Prophet Muhammad ﷺ](/posts/blog-post-physical-miracles-of-prophet)
+- [📖 Prophet Muhammad ﷺ — Role Model for Muslim Youth](/posts/prophet-muhammad-role-model-for-muslim-youth)
 
 💛 How do you personally express your love for Prophet Muhammad ﷺ in your daily routine? Tell me in the comments — I read every single one.
 
 *Disclaimer: This content is for educational and inspirational purposes only. While every effort is made to ensure accuracy of Quranic references and Hadith citations, please consult a trusted Islamic scholar for personal spiritual guidance or fiqh-related questions.*
-
----
-
-<div align="center">
-  <p>💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.</p>
-  <p><strong>JazzCash / EasyPaisa: 03287830412</strong></p>
-  <p style="font-size:0.9em;">Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.</p>
-</div>
