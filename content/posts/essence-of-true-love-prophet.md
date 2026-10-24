@@ -132,9 +132,9 @@ cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixPQQKFQJu7YK
     </div>
 
     <div class="related-links">
-      <a href="/posts/title-prophet-muhammad-greatest-leader">📖 Prophet Muhammad ﷺ — A Great Leader</a>
+      <a href="/blog/title-prophet-muhammad-greatest-leader">📖 Prophet Muhammad ﷺ — A Great Leader</a>
       <a href="https://quran.com" rel="noopener" target="_blank">🌍 Read Quran Translation</a>
-      <a href="/">🌿 More from Sabr and Sukoon</a>
+      <a href="/blog">🌿 More from Sabr and Sukoon</a>
     </div>
 
     <div class="disclaimer" role="note">
