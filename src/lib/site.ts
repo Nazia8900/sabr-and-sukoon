@@ -18,7 +18,7 @@ export const site = {
   ogImage: "/og-default.png",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "naziafirdous113@gmail.com",
   socials: {
-    youtube: "https://www.youtube.com/@sabarandsukoon2511",
+    youtube: "https://www.youtube.com/@sabrandsukoon-id",
     instagram: "https://www.instagram.com/sabrandsukoon82",
     whatsapp: "https://whatsapp.com/channel/0029VbDWp8eBPzjb4lLha33X",
   },
