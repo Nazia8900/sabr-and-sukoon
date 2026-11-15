@@ -157,7 +157,6 @@ If your sadness is persistent, overwhelming, or affecting your ability to functi
 اللَّهُمَّ رَحْمَتَكَ أَرْجُو فَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ
 "O Allah, it is Your mercy that I hope for, so do not leave me in charge of my own affairs even for the blink of an eye."
 — Abu Dawud, 5090 — Authenticated as Hasan
-✦ Final Sukoon Reflection
 You are allowed to feel sad. You are allowed to grieve. You are allowed to sit in the heaviness of loss without performing okayness for anyone — including your own inner critic that has been taught to confuse suppression with strength.
 Islam does not ask you to feel nothing. It asks you to feel everything — and bring it all to Allah. Your tears are not a sign that your iman is broken. They are evidence that your heart is alive, that you loved, that you are human in exactly the way Allah created you to be.
 Say Alhamdulillah with a broken voice if you must. Allah hears the breaks as clearly as the words.

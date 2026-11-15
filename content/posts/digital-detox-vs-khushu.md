@@ -140,7 +140,6 @@ Set Do Not Disturb for Prayer Times — And Mean It Spiritually
 Set your phone to "Do Not Disturb" or "Focus Mode" during salah times — not only to block interruptions, but as a declaration of niyyah (intention). Before you begin, say quietly to yourself:
 "For the next ten minutes, there is nothing in this world more important than this."
 Then recite Surah Al-Fatiha as if you are hearing it for the first time. Read it word by word, slowly. Your mind will wander — it has been trained to. When it does, return without guilt. The act of returning is itself Khushu.
-✦ Final Sukoon Reflection
 Digital detox tells you to put your phone down. Islam tells you why you would want to. The difference is everything. A detox is motivated by exhaustion — by the recognition that the screen has taken something from you. Khushu is motivated by love — by the recognition that what awaits you in those few minutes of salah is incomparably greater than what any notification could bring. You were not made for the scroll. You were made for the sujood. The screen will always want your attention. Allah has been waiting for your heart.
 أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ — "Verily, in the remembrance of Allah do hearts find rest." (Surah Ar-Ra'd, 13:28)
 💬 Has your salah felt different since you started using social media more?

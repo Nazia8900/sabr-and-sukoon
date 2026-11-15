@@ -36,6 +36,8 @@ const nextConfig = {
       // Old Blogger system paths
       { source: "/feeds/:path*", destination: "/rss.xml", permanent: false },
       { source: "/p/about.html", destination: "/about", permanent: true },
+      { source: "/p/about-me.html", destination: "/about", permanent: true },
+      { source: "/p/asma-ul-husna-for-anxious-heart-series.html", destination: "/blog?q=Asma-ul-Husna", permanent: false },
       {
         source: "/p/privacy-policy.html",
         destination: "/privacy-policy",

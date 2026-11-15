@@ -18,7 +18,6 @@ You were not created to measure up to their filters — you were created by the 
 By
 Nazia Firdous
 · Sabr & Sukoon · sabrandsukoon.online
-✦ In Short
 Every time you scroll, your brain runs an invisible comparison. And somewhere between the flawless skin, the sharp jawlines, and the digitally perfected faces — you start to feel like you are not enough. Islam does not just comfort you with platitudes. It gives you a
 complete reframe of where your worth lives
 — and it has nothing to do with how you look on a screen.
@@ -50,7 +49,6 @@ Studies on adolescent girls and young women show that as little as 30 minutes of
 What Islam Says: The Complete Alternative Framework
 Islam does not just tell you to "feel better about yourself." It dismantles the entire framework that made you feel bad in the first place.
 The beauty standard trap is built on a lie: that your worth is located in your appearance, that there is an ideal form you should be moving toward, and that you can measure your value by comparing yourself to others. Islam rejects every part of this — not with empty affirmations, but with a theological framework that reorients your entire sense of self.
-✦ Authenticated Hadith
 إِنَّ اللَّهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ
 "Indeed Allah does not look at your appearances or your wealth, but He looks at your hearts and your deeds."
 — Sahih Muslim 2564
@@ -104,7 +102,6 @@ Unfollowing or muting accounts that consistently trigger appearance anxiety is n
 5
 Make Du'a for Qanat in Your Body
 Ask Allah to replace appearance anxiety with Qanat — contentment with what He has given you. This is not asking to stop caring about yourself. It is asking to stop suffering about what He already perfected. Make this du'a in Sujood, where the nafs is most quiet and the heart is most open.
-✦ Du'a for Contentment in Your Form
 اللَّهُمَّ حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي
 "O Allah, just as You have made my external form beautiful, make my character beautiful too."
 — Narrated in Musnad Ahmad | Authenticated Du'a of the Prophet ﷺ

@@ -7,7 +7,6 @@ slug: "your-aura-vs-your-ruh-what-islam"
 source: "feed.atom backup"
 ---
 
-✦ Islamic Wellness · Ruh
 Your "Aura" vs. Your Ruh: What Islam Actually Says About the Unseen Self
 By
 Nazia Firdous (The Sukoon Seeker)
