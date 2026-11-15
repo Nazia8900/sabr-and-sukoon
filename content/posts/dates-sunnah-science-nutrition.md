@@ -2,7 +2,7 @@
 title: "Dates: The Sunnah Science Still Recommends"
 date: "2026-07-15"
 updated_date: "2026-08-06"
-original_url: "https://www.sabrandsukoon.online/2026/07/dates-sunnah-science-nutrition.html"
+original_url: "/blog/dates-sunnah-science-nutrition"
 slug: "dates-sunnah-science-nutrition"
 source: "feed.atom backup"
 ---

@@ -2,7 +2,7 @@
 title: "Love of Homeland in Islam: What Hubb-ul-Watan Really Means"
 date: "2026-08-14"
 updated_date: "2026-08-14"
-original_url: "https://www.sabrandsukoon.online/2026/08/love-of-homeland-in-islam-what-hubb-ul.html"
+original_url: "/blog/love-of-homeland-in-islam-what-hubb-ul"
 slug: "love-of-homeland-in-islam-what-hubb-ul"
 source: "feed.atom backup"
 ---

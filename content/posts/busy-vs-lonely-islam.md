@@ -2,7 +2,7 @@
 title: "Busy vs. Lonely: Why You Can Be Surrounded by People and Still Feel Alone"
 date: "2026-08-11"
 updated_date: "2026-08-11"
-original_url: "https://www.sabrandsukoon.online/2026/08/loneliness-surrounded-by-people-islam.html"
+original_url: "/blog/loneliness-surrounded-by-people-islam"
 slug: "loneliness-surrounded-by-people-islam"
 source: "feed.atom backup"
 cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK6ssUhrmtBZ9AwjgdIqD4r6p0HPPZhsqlgVGC8pYQ6TQmK0kypbgMmlYn4Neft71MeDNu_fBuz1EoA-gUiy4gwkTcsq26Z0bw1n3wue9BAgamo_0Aqehb-qKERB83n67yAo-1qhW8imgdc4Luj9kBKR9pkXEenpGIT9TvUnKelNZu6JJfTNcBeNld37pb/s1536/1000295787.png"
@@ -13,7 +13,7 @@ cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK6ssUhrmtBZ9
 
 # Busy vs. Lonely: Why You Can Be Surrounded by People and Still Feel Alone
 
-*By **Nazia Firdous (The Sukoon Seeker)** · Sabr and Sukoon · 8 min read*
+*By **Nazia Firdous (The Sukoon Seeker)** · Sabr and Sukoon*
 
 > **In Short:** A packed schedule, a full group chat, family in the next room — and still, a specific kind of quiet ache. Loneliness was never really about how many people are around you. This post looks at why the ache persists in a crowd, and what Islam actually offers for it.
 
@@ -94,26 +94,18 @@ Yes. He discouraged prolonged total isolation, such as sleeping or traveling com
 ---
 
 **🏷️ Topic Tags:** 
-[Islamic Wellness](https://www.sabrandsukoon.online/search/label/Islamic%20Wellness) · [Loneliness](https://www.sabrandsukoon.online/search/label/Loneliness) · [Mental Health](https://www.sabrandsukoon.online/search/label/Mental%20Health) · [Dhikr](https://www.sabrandsukoon.online/search/label/Dhikr) · [Quranic Reflection](https://www.sabrandsukoon.online/search/label/Quranic%20Reflection)
+[Islamic Wellness](/topics/islamic-wellness) · [Loneliness](/topics/loneliness) · [Mental Health](/topics/mental-health) · [Dhikr](/topics/dhikr) · [Quranic Reflection](/topics/quranic-reflection)
 
 ---
 *Written by Nazia Firdous (The Sukoon Seeker) — a teacher with over 20 years of experience, exploring the intersection of Quranic wisdom, authenticated hadith, and modern psychology for the Muslim woman quietly struggling to find her peace.*
 
 **Related Posts:**
 - [💎 Explore the Full Asma-ul-Husna for the Anxious Heart Series](https://www.sabrandsukoon.online/p/asma-ul-husna-for-anxious-heart-series.html)
-- [🤲 Ignored vs. Al-Mujeeb: Why Silence After Dua Isn't the Same as No](https://www.sabrandsukoon.online/2026/08/al-mujeeb-silence-after-dua-muslim-women.html)
-- [✨ An-Nur: When You Feel Unseen by Everyone Except Allah](https://www.sabrandsukoon.online/2026/07/an-nur-feeling-unseen-muslim-women.html)
-- [🌿 Finding Sukoon in a Tired World](https://www.sabrandsukoon.online/2026/06/finding-sukoon-in-tired-world-quranic.html)
-- [📱 Digital Detox vs. Khushu](https://www.sabrandsukoon.online/2026/06/digital-detox-vs-khushu.html)
+- [🤲 Ignored vs. Al-Mujeeb: Why Silence After Dua Isn't the Same as No](/blog/al-mujeeb-silence-after-dua-muslim-women)
+- [✨ An-Nur: When You Feel Unseen by Everyone Except Allah](/blog/an-nur-feeling-unseen-muslim-women)
+- [🌿 Finding Sukoon in a Tired World](/blog/finding-sukoon-in-tired-world-quranic)
+- [📱 Digital Detox vs. Khushu](/blog/digital-detox-vs-khushu)
 
 💛 Sister, has there been a moment you felt lonely even in a full room? Tell me in the comments — I read every single one.
 
 *Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health advice. If loneliness feels persistent or overwhelming, please consult a qualified therapist. Quranic verses and hadith are cited from authenticated sources.*
-
----
-
-<div align="center">
-  <p>💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.</p>
-  <p><strong>JazzCash / EasyPaisa: 03287830412</strong></p>
-  <p style="font-size:0.9em;">Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.</p>
-</div>

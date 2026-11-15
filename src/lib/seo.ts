@@ -18,17 +18,6 @@ export function baseMetadata(): Metadata {
     authors: [{ name: site.author.name }],
     creator: site.author.name,
     publisher: site.name,
-    keywords: [
-      "Islamic wellness",
-      "Muslim women",
-      "Quran reflection",
-      "Islamic psychology",
-      "anxiety relief Islam",
-      "sabr",
-      "sukoon",
-      "tawakkul",
-      "mental health Islam",
-    ],
     alternates: {
       canonical: "/",
       types: { "application/rss+xml": `${site.url}/rss.xml` },
@@ -55,6 +44,33 @@ export function baseMetadata(): Metadata {
     },
     icons: { icon: "/favicon.svg", apple: "/favicon.svg" },
     category: "health",
+  };
+}
+
+
+/** Per-page metadata: own title, description, canonical AND matching OG/Twitter tags. */
+export function pageMetadata(opts: { title: string; description: string; path: string }): Metadata {
+  const url = `${site.url}${opts.path}`;
+  const fullTitle = `${opts.title} | ${site.name}`;
+  return {
+    title: opts.title,
+    description: opts.description,
+    alternates: { canonical: opts.path },
+    openGraph: {
+      type: "website",
+      siteName: site.name,
+      title: fullTitle,
+      description: opts.description,
+      url,
+      locale: site.locale,
+      images: [{ url: abs(site.ogImage), width: 1200, height: 630, alt: site.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: fullTitle,
+      description: opts.description,
+      images: [abs(site.ogImage)],
+    },
   };
 }
 

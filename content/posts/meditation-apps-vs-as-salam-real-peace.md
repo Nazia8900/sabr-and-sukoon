@@ -2,7 +2,7 @@
 title: "Meditation Apps vs. As-Salam: Why Your Calm Keeps Running Out"
 date: "2026-07-22"
 updated_date: "2026-07-22"
-original_url: "https://www.sabrandsukoon.online/2026/07/meditation-apps-vs-as-salam-real-peace.html"
+original_url: "/blog/meditation-apps-vs-as-salam-real-peace"
 slug: "meditation-apps-vs-as-salam-real-peace"
 source: "feed.atom backup"
 ---

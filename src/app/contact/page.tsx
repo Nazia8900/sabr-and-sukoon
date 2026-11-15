@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import PageShell from "@/components/PageShell";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Contact",
   description: `Get in touch with ${site.name}. We'd love to hear from you.`,
-  alternates: { canonical: "/contact" },
-};
+  path: "/contact",
+});
 
 export default function ContactPage() {
   return (
@@ -28,7 +29,7 @@ export default function ContactPage() {
       <ul>
         <li>
           YouTube:{" "}
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <a href={site.socials.youtube} target="_blank" rel="noopener noreferrer">
             Sabr and Sukoon
           </a>
         </li>
@@ -40,7 +41,7 @@ export default function ContactPage() {
         </li>
         <li>
           WhatsApp Channel:{" "}
-          <a href="https://whatsapp.com/channel/0029VbDWp8eBPzjb4lLha33X" target="_blank" rel="noopener noreferrer">
+          <a href={site.socials.whatsapp} target="_blank" rel="noopener noreferrer">
             Follow Sabr and Sukoon | Islamic Wellness
           </a>
         </li>

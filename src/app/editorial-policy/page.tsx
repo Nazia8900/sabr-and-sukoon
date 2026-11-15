@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Editorial Policy",
   description: `How ${site.name} researches, writes, reviews and corrects its content.`,
-  alternates: { canonical: "/editorial-policy" },
-};
+  path: "/editorial-policy",
+});
 
 export default function EditorialPolicyPage() {
   return (

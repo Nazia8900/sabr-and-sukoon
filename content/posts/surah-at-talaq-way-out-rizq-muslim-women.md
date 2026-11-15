@@ -2,7 +2,7 @@
 title: "Feeling Stuck Vs. Surah At-Talaq: The Way Out You Can't Yet See"
 date: "2026-07-12"
 updated_date: "2026-07-12"
-original_url: "https://www.sabrandsukoon.online/2026/07/surah-at-talaq-way-out-rizq-muslim-women.html"
+original_url: "/blog/surah-at-talaq-way-out-rizq-muslim-women"
 slug: "surah-at-talaq-way-out-rizq-muslim-women"
 source: "feed.atom backup"
 ---

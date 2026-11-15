@@ -2,7 +2,7 @@
 title: "Reacting Instantly vs. Al-Halim: What Allah's Forbearance Teaches About Your Temper"
 date: "2026-08-07"
 updated_date: "2026-08-07"
-original_url: "https://www.sabrandsukoon.online/2026/08/reacting-instantly-vs-al-halim.html"
+original_url: "/blog/reacting-instantly-vs-al-halim"
 slug: "reacting-instantly-vs-al-halim"
 source: "feed.atom backup"
 ---
@@ -69,5 +69,3 @@ Catastrophizing vs. Al-Hafiz
 Al-Ghaffar: Why One Mistake Doesn't Define You
 💛 Sister, do you tend to react instantly, or do you naturally pause before responding? Tell me in the comments — I read every single one.
 Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health advice. If anger feels unmanageable, please consult a qualified therapist. Quranic verses are cited from authenticated sources.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412

@@ -2,7 +2,7 @@
 title: "Feeling Left Behind Vs. Al-Muqaddim"
 date: "2026-07-08"
 updated_date: "2026-07-28"
-original_url: "https://www.sabrandsukoon.online/2026/07/al-muqaddim-dua-delay-muslim-women.html"
+original_url: "/blog/al-muqaddim-dua-delay-muslim-women"
 slug: "al-muqaddim-dua-delay-muslim-women"
 source: "feed.atom backup"
 ---

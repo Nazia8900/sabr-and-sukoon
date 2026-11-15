@@ -2,7 +2,7 @@
 title: "Feeling Unlovable Vs. Al-Wadud: Allah's Love for You"
 date: "2026-07-04"
 updated_date: "2026-07-04"
-original_url: "https://www.sabrandsukoon.online/2026/07/al-wadud-self-worth-unloved-muslim-women.html"
+original_url: "/blog/al-wadud-self-worth-unloved-muslim-women"
 slug: "al-wadud-self-worth-unloved-muslim-women"
 source: "feed.atom backup"
 ---

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import { getPostsByCategorySlug } from "@/lib/posts";
 import { getAllTopics, getTopic, getSubstantialTopics } from "@/lib/topics";
@@ -28,11 +29,11 @@ export async function generateMetadata({
   // explicitly non-indexable rather than let a soft 404 into the search index.
   if (!topic)
     return { title: "Topic not found", robots: { index: false, follow: false } };
-  return {
+  return pageMetadata({
     title: `${topic.name}`,
     description: `${topic.count} articles on ${topic.name} from ${site.name}.`,
-    alternates: { canonical: `/topics/${topic.slug}` },
-  };
+    path: `/topics/${topic.slug}`,
+  });
 }
 
 export default async function TopicPage({

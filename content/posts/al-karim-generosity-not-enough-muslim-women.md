@@ -2,7 +2,7 @@
 title: "Not Enough vs. Al-Karim: Why Generosity Was Never About Your Worth"
 date: "2026-08-04"
 updated_date: "2026-08-04"
-original_url: "https://www.sabrandsukoon.online/2026/08/al-karim-generosity-not-enough-muslim-women.html"
+original_url: "/blog/al-karim-generosity-not-enough-muslim-women"
 slug: "al-karim-generosity-not-enough-muslim-women"
 source: "feed.atom backup"
 ---
@@ -58,6 +58,3 @@ Explore the Full Asma-ul-Husna for the Anxious Heart Series
 Al-Wadud: Why Allah's Love for You Never Wavers
 💛 Sister, when something good happens, is your first instinct joy — or suspicion? Tell me in the comments — I read every single one.
 Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health advice. Quranic verses cited are from authenticated sources; please consult a qualified scholar for detailed religious rulings.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412
-Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.

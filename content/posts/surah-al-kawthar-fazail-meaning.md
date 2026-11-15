@@ -2,7 +2,7 @@
 title: "Called \"Cut Off\" vs. Given Abundance: The Story Behind Surah Al-Kawthar"
 date: "2026-07-25"
 updated_date: "2026-07-25"
-original_url: "https://www.sabrandsukoon.online/2026/07/surah-al-kawthar-fazail-meaning.html"
+original_url: "/blog/surah-al-kawthar-fazail-meaning"
 slug: "surah-al-kawthar-fazail-meaning"
 source: "feed.atom backup"
 ---

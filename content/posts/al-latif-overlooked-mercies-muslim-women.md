@@ -2,7 +2,7 @@
 title: "Feeling Unnoticed Vs. Al-Latif: Overlooked Mercies"
 date: "2026-07-05"
 updated_date: "2026-07-05"
-original_url: "https://www.sabrandsukoon.online/2026/07/al-latif-overlooked-mercies-muslim-women.html"
+original_url: "/blog/al-latif-overlooked-mercies-muslim-women"
 slug: "al-latif-overlooked-mercies-muslim-women"
 source: "feed.atom backup"
 ---

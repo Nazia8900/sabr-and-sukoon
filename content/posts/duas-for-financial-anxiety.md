@@ -2,7 +2,7 @@
 title: "5 Powerful Duas for Financial Anxiety"
 date: "2026-07-27"
 updated_date: "2026-07-27"
-original_url: "https://www.sabrandsukoon.online/2026/07/duas-for-financial-anxiety.html"
+original_url: "/blog/duas-for-financial-anxiety"
 slug: "duas-for-financial-anxiety"
 source: "feed.atom backup"
 ---
@@ -29,7 +29,7 @@ source: "feed.atom backup"
   "dateModified": "2026-07-27",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.sabrandsukoon.online/2026/07/duas-for-financial-anxiety.html"
+    "@id": "/blog/duas-for-financial-anxiety"
   },
   "keywords": "dua for financial anxiety, dua for rizq, dua for debt, provision in Islam",
   "articleSection": "Dua and Dhikr",
@@ -78,8 +78,8 @@ source: "feed.atom backup"
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sabrandsukoon.online"},
-    {"@type": "ListItem", "position": 2, "name": "Dua and Dhikr", "item": "https://www.sabrandsukoon.online/search/label/Dua%20and%20Dhikr"},
-    {"@type": "ListItem", "position": 3, "name": "5 Duas for Financial Anxiety", "item": "https://www.sabrandsukoon.online/2026/07/duas-for-financial-anxiety.html"}
+    {"@type": "ListItem", "position": 2, "name": "Dua and Dhikr", "item": "/topics/dua-and-dhikr"},
+    {"@type": "ListItem", "position": 3, "name": "5 Duas for Financial Anxiety", "item": "/blog/duas-for-financial-anxiety"}
   ]
 }
 

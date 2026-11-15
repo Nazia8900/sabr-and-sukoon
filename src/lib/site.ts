@@ -16,17 +16,18 @@ export const site = {
   founded: "2026",
   logo: "/logo.svg",
   ogImage: "/og-default.png",
-  email: "naziafirdous113@gmail.com",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "naziafirdous113@gmail.com",
   socials: {
     youtube: "https://www.youtube.com/@sabarandsukoon2511",
     instagram: "https://www.instagram.com/sabrandsukoon82",
+    whatsapp: "https://whatsapp.com/channel/0029VbDWp8eBPzjb4lLha33X",
   },
   author: {
     name: "Nazia Firdous",
     slug: "nazia-firdous",
     role: "Founder & Writer",
     bio: "Educator with over 20 years of experience, writing faith-based reflections that bridge Quranic wisdom and modern psychology for Muslim women seeking inner peace.",
-    email: "naziafirdous113@gmail.com",
+    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "naziafirdous113@gmail.com",
   },
   nav: [
     { label: "Home", href: "/" },

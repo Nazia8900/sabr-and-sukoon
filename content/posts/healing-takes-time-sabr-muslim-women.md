@@ -2,7 +2,7 @@
 title: "Quick Fix Vs. Sabr: Why Healing Takes Time"
 date: "2025-08-06"
 updated_date: "2026-07-06"
-original_url: "https://www.sabrandsukoon.online/2025/08/healing-takes-time-sabr-muslim-women.html"
+original_url: "/blog/healing-takes-time-sabr-muslim-women"
 slug: "healing-takes-time-sabr-muslim-women"
 source: "feed.atom backup"
 ---

@@ -2,7 +2,7 @@
 title: "How to Protect Your Kids From Bad Content Online: A Muslim Surfer Review"
 date: "2026-07-23"
 updated_date: "2026-07-23"
-original_url: "https://www.sabrandsukoon.online/2026/07/protect-kids-online-muslim-surfer-review.html"
+original_url: "/blog/protect-kids-online-muslim-surfer-review"
 slug: "protect-kids-online-muslim-surfer-review"
 source: "feed.atom backup"
 ---

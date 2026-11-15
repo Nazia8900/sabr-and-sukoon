@@ -2,7 +2,7 @@
 title: "Invisible vs. An-Nur: When You Feel Unseen by Everyone Except Allah"
 date: "2026-07-29"
 updated_date: "2026-07-29"
-original_url: "https://www.sabrandsukoon.online/2026/07/an-nur-feeling-unseen-muslim-women.html"
+original_url: "/blog/an-nur-feeling-unseen-muslim-women"
 slug: "an-nur-feeling-unseen-muslim-women"
 source: "feed.atom backup"
 ---

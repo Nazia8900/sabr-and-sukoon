@@ -2,7 +2,7 @@
 title: "Toxic Positivity vs. Alhamdulillah: Are We Allowed to Feel Sad in Islam?"
 date: "2026-06-23"
 updated_date: "2026-06-23"
-original_url: "https://www.sabrandsukoon.online/2026/06/toxic-positivity-vs-alhamdulillah.html"
+original_url: "/blog/toxic-positivity-vs-alhamdulillah"
 slug: "toxic-positivity-vs-alhamdulillah"
 source: "feed.atom backup"
 ---

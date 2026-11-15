@@ -2,7 +2,7 @@
 title: "Qailulah: The Prophetic Nap Science Confirms"
 date: "2026-07-13"
 updated_date: "2026-07-13"
-original_url: "https://www.sabrandsukoon.online/2026/07/qailulah-sunnah-nap-science.html"
+original_url: "/blog/qailulah-sunnah-nap-science"
 slug: "qailulah-sunnah-nap-science"
 source: "feed.atom backup"
 ---

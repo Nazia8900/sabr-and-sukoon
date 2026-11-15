@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "About",
-  description:
-    "About Sabr and Sukoon and its founder Nazia Firdous — an Islamic wellness space where Quranic guidance meets modern psychology.",
-  alternates: { canonical: "/about" },
-};
+  description: "About Sabr and Sukoon and its founder Nazia Firdous — an Islamic wellness space where Quranic guidance meets modern psychology.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (
@@ -61,12 +61,12 @@ export default function AboutPage() {
       <h2>Connect With Me</h2>
       <p>
         🎥{" "}
-        <a href="https://youtube.com/@sabrandsukoon-id" target="_blank" rel="noopener noreferrer">
+        <a href={site.socials.youtube} target="_blank" rel="noopener noreferrer">
           YouTube &mdash; Sabr and Sukoon
         </a>
         <br />
         📱{" "}
-        <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+        <a href={site.socials.whatsapp} target="_blank" rel="noopener noreferrer">
           WhatsApp Channel &mdash; Follow for Daily Updates
         </a>
         <br />

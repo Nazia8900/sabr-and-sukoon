@@ -2,7 +2,7 @@
 title: "Al-Razzaq & Career Anxiety: Why Your Rizq Isn't Late"
 date: "2026-07-02"
 updated_date: "2026-07-02"
-original_url: "https://www.sabrandsukoon.online/2026/07/al-razzaq-career-anxiety-rizq-muslim-women.html"
+original_url: "/blog/al-razzaq-career-anxiety-rizq-muslim-women"
 slug: "al-razzaq-career-anxiety-rizq-muslim-women"
 source: "feed.atom backup"
 ---

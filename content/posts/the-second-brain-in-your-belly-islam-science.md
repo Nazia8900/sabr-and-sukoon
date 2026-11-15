@@ -2,7 +2,7 @@
 title: "The Second Brain in Your Belly: What Islam Taught 1,400 Years Before Science Caught Up"
 date: "2026-07-21"
 updated_date: "2026-07-21"
-original_url: "https://www.sabrandsukoon.online/2026/07/the-second-brain-in-your-belly-islam-science.html"
+original_url: "/blog/the-second-brain-in-your-belly-islam-science"
 slug: "the-second-brain-in-your-belly-islam-science"
 source: "feed.atom backup"
 ---

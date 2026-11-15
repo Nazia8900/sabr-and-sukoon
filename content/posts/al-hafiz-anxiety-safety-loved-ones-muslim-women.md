@@ -2,7 +2,7 @@
 title: "Catastrophizing Vs.Al-Hafiz: Why Worrying About Everyone You Love Doesn't Protect Them"
 date: "2026-08-06"
 updated_date: "2026-08-13"
-original_url: "https://www.sabrandsukoon.online/2026/08/al-hafiz-anxiety-safety-loved-ones-muslim-women.html"
+original_url: "/blog/al-hafiz-anxiety-safety-loved-ones-muslim-women"
 slug: "al-hafiz-anxiety-safety-loved-ones-muslim-women"
 source: "feed.atom backup"
 ---
@@ -79,6 +79,3 @@ Islamic Wellness
 Quranic Reflection
 💛 Sister, does your mind race to worst-case scenarios when someone you love is out of reach? Tell me in the comments — I read every single one.
 Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health advice. If anxious thoughts are persistent or overwhelming, please consult a qualified therapist. Quranic verses and hadith are cited from authenticated sources.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412
-Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.

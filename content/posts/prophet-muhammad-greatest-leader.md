@@ -1,6 +1,6 @@
 ---
 title: "Prophet Muhammad ﷺ – The Greatest Leader in Human History | 10 Qualities That Changed the World"
-slug: "title-prophet-muhammad-greatest-leader"
+slug: "prophet-muhammad-greatest-leader"
 date: "2025-09-12"
 updatedAt: "2026-08-27"
 author: "Nazia Firdous"

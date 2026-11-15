@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getAllPostMeta } from "@/lib/posts";
 import ArticlesExplorer from "@/components/ArticlesExplorer";
 import JsonLd from "@/components/JsonLd";
@@ -7,11 +8,11 @@ import { site } from "@/lib/site";
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "All Articles",
   description: `Browse and search every reflection from ${site.name} — Quran, Hadith and Islamic psychology for inner peace.`,
-  alternates: { canonical: "/blog" },
-};
+  path: "/blog",
+});
 
 export default async function BlogIndex() {
   const posts = await getAllPostMeta();

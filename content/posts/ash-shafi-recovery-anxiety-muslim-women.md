@@ -2,7 +2,7 @@
 title: "Recovery Anxiety Vs. Ash-Shafi: Healing Uncertainty"
 date: "2026-07-07"
 updated_date: "2026-07-07"
-original_url: "https://www.sabrandsukoon.online/2026/07/ash-shafi-recovery-anxiety-muslim-women.html"
+original_url: "/blog/ash-shafi-recovery-anxiety-muslim-women"
 slug: "ash-shafi-recovery-anxiety-muslim-women"
 source: "feed.atom backup"
 ---

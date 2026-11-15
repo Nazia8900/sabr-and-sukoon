@@ -2,7 +2,7 @@
 title: "Ignored vs. Al-Mujeeb: Why Silence After Dua Isn't the Same as No"
 date: "2026-08-09"
 updated_date: "2026-08-09"
-original_url: "https://www.sabrandsukoon.online/2026/08/ignored-vs-al-mujeeb-why-silence-after.html"
+original_url: "/blog/ignored-vs-al-mujeeb-why-silence-after"
 slug: "ignored-vs-al-mujeeb-why-silence-after"
 source: "feed.atom backup"
 cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjot7ukrMUu2F9a0KLtMA8nhvP5Wu52X6V6qgJq_UohuK28qAfrnljPayWVxRUrzbJ9N6jhmuBdr9V7SBUVCE018xVAET-paZBjDZbyxB5k34C-9XHOTOLsEDaRbXcA6P2MScw2xwhiOLw4DWtZUiTfQbf3M8YV964ov9JoVVBXQlz5PUC4nYOz77W3uawh/s1264/1000293954.webp"
@@ -71,5 +71,3 @@ Al-Wahhab and the Wisdom of Divine Giving
 As-Sabur: Why Your Dua Isn't Being Ignored
 💛 Sister, is there a dua you're still waiting on, in the silence right now? Tell me in the comments — I read every single one.
 Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health advice. Quranic verses cited are from authenticated sources.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412

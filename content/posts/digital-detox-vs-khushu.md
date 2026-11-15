@@ -2,7 +2,7 @@
 title: "Digital Detox vs. Khushu: Why Your Mind Wanders in Salah"
 date: "2026-06-22"
 updated_date: "2026-06-22"
-original_url: "https://www.sabrandsukoon.online/2026/06/digital-detox-vs-khushu.html"
+original_url: "/blog/digital-detox-vs-khushu"
 slug: "digital-detox-vs-khushu"
 source: "feed.atom backup"
 ---

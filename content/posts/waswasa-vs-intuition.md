@@ -2,7 +2,7 @@
 title: "Is It Your Heart Speaking — or Shaytan? Islam's Guide to Waswasa"
 date: "2026-06-24"
 updated_date: "2026-06-25"
-original_url: "https://www.sabrandsukoon.online/2026/06/waswasa-vs-intuition.html"
+original_url: "/blog/waswasa-vs-intuition"
 slug: "waswasa-vs-intuition"
 source: "feed.atom backup"
 ---

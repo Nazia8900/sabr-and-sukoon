@@ -2,7 +2,7 @@
 title: "When You Don't Get What You Want: Al-Wahhab and the Wisdom of Divine Giving"
 date: "2026-08-05"
 updated_date: "2026-08-05"
-original_url: "https://www.sabrandsukoon.online/2026/08/when-you-dont-get-what-you-want-al.html"
+original_url: "/blog/when-you-dont-get-what-you-want-al"
 slug: "when-you-dont-get-what-you-want-al"
 source: "feed.atom backup"
 ---
@@ -95,5 +95,3 @@ Sabr vs. Surrender
 A question for you:
 Is there something specific you've been asking Allah for, that hasn't come yet in the shape you pictured? Share in the comments — sometimes naming it is the first step to making peace with the wait.
 Disclaimer: This post is for general reflection and spiritual encouragement and is not a substitute for professional mental health or religious guidance. If you are struggling, please consult a qualified therapist or a knowledgeable scholar.
-💛 If this reminder brought you sukoon, consider a small sadaqah to keep this space running.
-JazzCash / EasyPaisa: 03287830412

@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Disclaimer",
   description: `Important disclaimer for ${site.name} — our content is faith-based reflection, not medical, psychological, or religious-ruling advice.`,
-  alternates: { canonical: "/disclaimer" },
-};
+  path: "/disclaimer",
+});
 
 export default function DisclaimerPage() {
   return (

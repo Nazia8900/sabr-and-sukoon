@@ -2,7 +2,7 @@
 title: "Grudges vs. Al-Ghaffar: Why Holding On Hurts You More Than Them"
 date: "2025-09-14"
 updated_date: "2026-07-26"
-original_url: "https://www.sabrandsukoon.online/2026/07/forgiveness-in-islam-al-ghaffar-peace.html"
+original_url: "/blog/forgiveness-in-islam-al-ghaffar-peace"
 slug: "forgiveness-in-islam-al-ghaffar-peace"
 source: "feed.atom backup"
 ---
