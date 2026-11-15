@@ -7,7 +7,6 @@ slug: "temporary-fixes-vs-quran-real-peace"
 source: "feed.atom backup"
 ---
 
-✦ Quran Reflections · Inner Peace
 Temporary Fixes vs. The Qur'an: Where Real Peace Actually Comes From
 By
 Nazia Firdous (The Sukoon Seeker)

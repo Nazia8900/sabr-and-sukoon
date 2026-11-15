@@ -7,8 +7,6 @@ slug: "loneliness-surrounded-by-people-islam"
 source: "feed.atom backup"
 cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK6ssUhrmtBZ9AwjgdIqD4r6p0HPPZhsqlgVGC8pYQ6TQmK0kypbgMmlYn4Neft71MeDNu_fBuz1EoA-gUiy4gwkTcsq26Z0bw1n3wue9BAgamo_0Aqehb-qKERB83n67yAo-1qhW8imgdc4Luj9kBKR9pkXEenpGIT9TvUnKelNZu6JJfTNcBeNld37pb/s1536/1000295787.png"
 ---
-✦ Islamic Wellness · Loneliness
-
 💡 **Content Integrity:** This article draws on authentic Quranic ayahs and hadith, including one graded sahih in Musnad Ahmad. It offers spiritual reflection on loneliness, not a substitute for professional mental health support.
 
 # Busy vs. Lonely: Why You Can Be Surrounded by People and Still Feel Alone
@@ -100,7 +98,7 @@ Yes. He discouraged prolonged total isolation, such as sleeping or traveling com
 *Written by Nazia Firdous (The Sukoon Seeker) — a teacher with over 20 years of experience, exploring the intersection of Quranic wisdom, authenticated hadith, and modern psychology for the Muslim woman quietly struggling to find her peace.*
 
 **Related Posts:**
-- [💎 Explore the Full Asma-ul-Husna for the Anxious Heart Series](https://www.sabrandsukoon.online/p/asma-ul-husna-for-anxious-heart-series.html)
+- [💎 Explore the Full Asma-ul-Husna for the Anxious Heart Series](/blog?q=Asma-ul-Husna)
 - [🤲 Ignored vs. Al-Mujeeb: Why Silence After Dua Isn't the Same as No](/blog/al-mujeeb-silence-after-dua-muslim-women)
 - [✨ An-Nur: When You Feel Unseen by Everyone Except Allah](/blog/an-nur-feeling-unseen-muslim-women)
 - [🌿 Finding Sukoon in a Tired World](/blog/finding-sukoon-in-tired-world-quranic)

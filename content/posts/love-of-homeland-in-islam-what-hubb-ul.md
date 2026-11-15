@@ -12,7 +12,6 @@ Home
 Islamic Wellness
 ›
 Hubb-ul-Watan
-✦ Islamic Wellness · Reflection
 Hubb-ul-Watan: What Love of Homeland Actually Looks Like in Islam
 A closer look at homeland, belonging, and what the Prophet ﷺ actually taught us about loving a place.
 💡 Content Integrity:
