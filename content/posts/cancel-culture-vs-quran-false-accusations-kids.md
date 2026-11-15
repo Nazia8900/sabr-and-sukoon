@@ -2,7 +2,7 @@
 title: "Cancel Culture vs. The Quran: What Happens When the Accused Are Truly Innocent"
 date: "2026-07-24"
 updated_date: "2026-07-24"
-original_url: "https://www.sabrandsukoon.online/2026/07/cancel-culture-vs-quran-false-accusations-kids.html"
+original_url: "/blog/cancel-culture-vs-quran-false-accusations-kids"
 slug: "cancel-culture-vs-quran-false-accusations-kids"
 source: "feed.atom backup"
 ---

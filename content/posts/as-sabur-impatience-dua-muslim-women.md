@@ -2,7 +2,7 @@
 title: "Impatience vs As-Sabur: Why Your Dua Isn't Being Ignored"
 date: "2026-08-22"
 updated_date: "2026-08-22"
-original_url: "https://www.sabrandsukoon.online/2026/07/as-sabur-impatience-dua-muslim-women.html"
+original_url: "/blog/as-sabur-impatience-dua-muslim-women"
 slug: "as-sabur-impatience-dua-muslim-women"
 source: "feed.atom backup"
 cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
@@ -95,6 +95,3 @@ Asma-ul-Husna for the Anxious Heart series
 .
 💛 Sister, is there a dua you've been waiting on for a long time? What has helped you keep asking without losing hope? Tell me in the comments — I read every single one.
 Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health or financial advice. Quranic verses and hadith are cited from authenticated sources; please consult a qualified scholar for detailed religious rulings.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412
-Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.

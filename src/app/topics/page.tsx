@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getAllTopics, getSubstantialTopics, getTopic } from "@/lib/topics";
 import Chip from "@/components/Chip";
 import { site } from "@/lib/site";
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Topics",
   description: `Browse all topics on ${site.name} — from tawakkul and sabr to anxiety, heartbreak and Islamic psychology.`,
-  alternates: { canonical: "/topics" },
-};
+  path: "/topics",
+});
 
 export default async function TopicsPage() {
   const allTopics = await getAllTopics();

@@ -2,7 +2,7 @@
 title: "Disappointment Vs. Surah Al-Baqarah 2:216"
 date: "2026-07-14"
 updated_date: "2026-07-14"
-original_url: "https://www.sabrandsukoon.online/2026/07/surah-al-baqarah-2-216-disappointment-mercy.html"
+original_url: "/blog/surah-al-baqarah-2-216-disappointment-mercy"
 slug: "surah-al-baqarah-2-216-disappointment-mercy"
 source: "feed.atom backup"
 ---

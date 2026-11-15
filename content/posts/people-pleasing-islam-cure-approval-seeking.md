@@ -2,7 +2,7 @@
 title: "Influencers vs. Prophet Muhammad ﷺ: Who Should Muslim Youth Really Follow?"
 date: "2026-08-27"
 updated_date: "2026-08-27"
-original_url: "https://www.sabrandsukoon.online/2025/09/prophet-muhammad-role-model-for-muslim-youth.html"
+original_url: "/blog/prophet-muhammad-role-model-for-muslim-youth"
 slug: "prophet-muhammad-role-model-for-muslim-youth"
 cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1sCUHSsvfP3o2zE-jAXHXIQUaO9xp-1wO5HMC2k7H6h8NpTZnDfWHd7ngpcvjilm02YVKEDpdr90-IRJ0haiB7H8rASBwJpNd9r2Bk1fFtbr1o8W1h7q04QNS73SwuQ5uiRyRRVoCRUtDkr4_f_kj9ujBw0dnUfVZbQbMB1OgmsGLKYZi2MBYezbSVprN/s1264/1000276670.webp"
@@ -15,7 +15,7 @@ Home › Seerah › Prophet Muhammad ﷺ — Role Model
 
 # Prophet Muhammad ﷺ — A Role Model for Muslim Youth
 
-**By Nazia Firdous (The Sukoon Seeker) · Sabr and Sukoon · 8 min read**
+**By Nazia Firdous (The Sukoon Seeker) · Sabr and Sukoon**
 
 > **In Short:** The Prophet Muhammad ﷺ is the ultimate role model for Muslim youth. His life is a complete example of character, integrity, and compassion. This article explores how his teachings and example provide timeless guidance for young Muslims navigating the challenges of modern life.
 
@@ -28,7 +28,7 @@ Allah ﷻ says in the Quran:
 > "There has certainly been for you in the Messenger of Allah an excellent pattern for anyone whose hope is in Allah and the Last Day."
 > — Surah Al-Ahzab, 33:21
 
-This verse is not a command to admire the Prophet ﷺ from a distance. It is an invitation to make his life your blueprint. [Explore the 10 qualities that made him the greatest leader in human history](https://www.sabrandsukoon.online/2025/09/title-prophet-muhammad-greatest-leader.html).
+This verse is not a command to admire the Prophet ﷺ from a distance. It is an invitation to make his life your blueprint. [Explore the 10 qualities that made him the greatest leader in human history](/blog/prophet-muhammad-greatest-leader).
 
 ## 🌿 A Complete Example
 
@@ -46,7 +46,7 @@ Some of the most important qualities that young Muslims can learn from the Proph
 - **Justice (Adl):** He was fair and just in every matter, even when it was against his own interests.
 - **Forgiveness (Afw):** He forgave those who hurt him and showed mercy to his oppressors.
 
-[Learn about the physical miracles of Prophet Muhammad ﷺ](https://www.sabrandsukoon.online/2025/09/blog-post-physical-miracles-of-prophet.html) that further deepen our love for him.
+[Learn about the physical miracles of Prophet Muhammad ﷺ](/blog/blog-post-physical-miracles-of-prophet) that further deepen our love for him.
 
 ## 🌿 Practical Steps to Follow the Prophet's Example
 
@@ -58,7 +58,7 @@ Emulating the Prophet ﷺ is not about being perfect. It is about progress. Here
 4. **Control Your Anger:** The Prophet ﷺ taught that the strong person is not the one who can wrestle, but the one who can control his anger.
 5. **Use Your Time Wisely:** The Prophet ﷺ valued time and encouraged his followers to make the most of it.
 
-[When hearts break, reconnecting with Allah starts with His Messenger's example](https://www.sabrandsukoon.online/2025/07/when-hearts-break-how-to-reconnect-with.html).
+[When hearts break, reconnecting with Allah starts with His Messenger's example](/blog/when-hearts-break-how-to-reconnect-with).
 
 ## 🌸 Final Reflection
 

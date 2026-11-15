@@ -216,7 +216,21 @@ export default function ArticlesExplorer(props: {
   topics: readonly TopicChip[];
 }) {
   return (
-    <Suspense fallback={<div className="mt-8 text-center text-ink-400">Loading…</div>}>
+    <Suspense
+      fallback={
+        <nav aria-label="All articles" className="mt-8">
+          <ul className="grid gap-2 sm:grid-cols-2">
+            {props.posts.map((p) => (
+              <li key={p.slug}>
+                <a href={`/blog/${p.slug}`} className="text-emerald-800 hover:underline">
+                  {p.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      }
+    >
       <Explorer {...props} />
     </Suspense>
   );

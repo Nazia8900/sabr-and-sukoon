@@ -2,7 +2,7 @@
 title: "Your \"Aura\" vs. Your Ruh: What Islam Actually Says"
 date: "2026-08-03"
 updated_date: "2026-08-05"
-original_url: "https://www.sabrandsukoon.online/2026/08/your-aura-vs-your-ruh-what-islam.html"
+original_url: "/blog/your-aura-vs-your-ruh-what-islam"
 slug: "your-aura-vs-your-ruh-what-islam"
 source: "feed.atom backup"
 ---
@@ -57,6 +57,3 @@ Quranic Reflection
 Spiritual Growth
 💛 Sister, have you come across content like this before — spiritual-looking, but not quite Islamic underneath? Tell me in the comments — I read every single one.
 Disclaimer: This post is for educational and reflective purposes. It does not constitute a religious ruling (fatwa); please consult a qualified scholar for detailed guidance on matters of aqeedah.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412
-Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.

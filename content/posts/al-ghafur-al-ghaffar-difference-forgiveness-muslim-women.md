@@ -2,7 +2,7 @@
 title: "Al-Ghafur vs. Al-Ghaffar: The Difference Between Forgiveness and Forgiving Over and Over"
 date: "2026-07-30"
 updated_date: "2026-07-30"
-original_url: "https://www.sabrandsukoon.online/2026/07/al-ghafur-al-ghaffar-difference-forgiveness-muslim-women.html"
+original_url: "/blog/al-ghafur-al-ghaffar-difference-forgiveness-muslim-women"
 slug: "al-ghafur-al-ghaffar-difference-forgiveness-muslim-women"
 source: "feed.atom backup"
 ---

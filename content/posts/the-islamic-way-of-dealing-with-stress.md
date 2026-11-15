@@ -2,7 +2,7 @@
 title: "How to Find Peace in Islam — Practical Ways to Relieve Anxiety"
 date: "2025-09-01"
 updated_date: "2026-08-05"
-original_url: "https://www.sabrandsukoon.online/2025/09/the-islamic-way-of-dealing-with-stress.html"
+original_url: "/blog/the-islamic-way-of-dealing-with-stress"
 slug: "the-islamic-way-of-dealing-with-stress"
 source: "feed.atom backup"
 ---
@@ -78,6 +78,3 @@ Asma-ul-Husna for the Anxious Heart Series
 5 Powerful Duas for Inner Peace and Sukoon
 💛 Sister, has there been a moment when Salah or Dhikr brought you peace in the middle of chaos? Tell me in the comments — I read every single one.
 Disclaimer: This content is for informational and educational purposes only and reflects a faith-based approach to wellness. It is not intended to be a substitute for professional medical advice, diagnosis, or clinical therapy. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical or mental health condition.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412
-Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.

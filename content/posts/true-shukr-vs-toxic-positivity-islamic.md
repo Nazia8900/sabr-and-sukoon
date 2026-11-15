@@ -2,7 +2,7 @@
 title: "True Shukr vs. Toxic Positivity: The Islamic View"
 date: "2026-06-19"
 updated_date: "2026-06-19"
-original_url: "https://www.sabrandsukoon.online/2026/06/true-shukr-vs-toxic-positivity-islamic.html"
+original_url: "/blog/true-shukr-vs-toxic-positivity-islamic"
 slug: "true-shukr-vs-toxic-positivity-islamic"
 source: "feed.atom backup"
 ---

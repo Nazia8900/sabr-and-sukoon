@@ -2,7 +2,7 @@
 title: "Losing Hope Vs. Surah Yusuf 12:87"
 date: "2026-07-16"
 updated_date: "2026-07-16"
-original_url: "https://www.sabrandsukoon.online/2026/07/surah-yusuf-12-87-losing-hope-muslim-women.html"
+original_url: "/blog/surah-yusuf-12-87-losing-hope-muslim-women"
 slug: "surah-yusuf-12-87-losing-hope-muslim-women"
 source: "feed.atom backup"
 ---
@@ -63,6 +63,3 @@ As-Sabur: Why Your Dua Isn't Being Ignored
 Al-Muqaddim: Why Delay Isn't Denial
 💛 Sister, have you ever held onto hope for something with no clear timeline in sight? Tell me in the comments — I read every single one.
 Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health advice. Quranic verses are cited from authenticated sources; please consult a qualified scholar for detailed religious rulings.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412
-Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.

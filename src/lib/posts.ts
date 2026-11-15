@@ -207,13 +207,22 @@ function parseFrontmatter(raw: string): { data: Record<string, string>; body: st
   return { data, body: m[2] };
 }
 
-function plain(html: string, len = 160): string {
-  const t = html
+function excerptFrom(html: string, len = 155): string {
+  const text = html
     .replace(/<[^>]+>/g, " ")
-    .replace(/&[a-z0-9#]+;/g, " ")
+    .replace(/&[a-z0-9#]+;/gi, " ")
+    .replace(/[\p{Extended_Pictographic}\u2726\uFE0F]/gu, "")
     .replace(/\s+/g, " ")
     .trim();
-  return t.length <= len ? t : t.slice(0, len).replace(/\s+\S*$/, "") + "…";
+  // Prefer the article's own "In Short" summary when it has one.
+  const short = text.match(/In Short:\s*(.+?)(?:\s{2,}|$)/);
+  let t = short ? short[1] : text.replace(/^[A-Za-z' &]+ · [A-Za-z' &]+\s+/, "").replace(/^Content Integrity:[^.]*\.[^.]*\.\s*/, "");
+  t = t.trim();
+  if (t.length <= len) return t;
+  const cut = t.slice(0, len);
+  const sentenceEnd = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("? "), cut.lastIndexOf("! "));
+  if (sentenceEnd > 80) return cut.slice(0, sentenceEnd + 1);
+  return cut.replace(/\s+\S*$/, "") + "…";
 }
 
 function loadFile(file: string): Post | null {
@@ -227,7 +236,7 @@ function loadFile(file: string): Post | null {
     return {
       slug: j.slug || file.replace(/\.json$/, ""),
       title: j.title || "Untitled",
-      excerpt: j.excerpt || plain(html),
+      excerpt: j.excerpt || excerptFrom(html),
       author: j.author || "Nazia Firdous",
       publishedAt: j.publishedAt || null,
       updatedAt: j.updatedAt || j.publishedAt || null,
@@ -248,7 +257,7 @@ function loadFile(file: string): Post | null {
     return {
       slug: data.slug || file.replace(/\.mdx?$/, ""),
       title: data.title || "Untitled",
-      excerpt: data.excerpt || plain(html),
+      excerpt: data.excerpt || excerptFrom(html),
       author: data.author || "Nazia Firdous",
       publishedAt: data.publishedAt || data.date || null,
       updatedAt: data.updatedAt || data.publishedAt || data.date || null,
@@ -317,7 +326,7 @@ function recordToPost(record: PostRecord): Post {
   return {
     slug: record.slug,
     title: record.title || "Untitled",
-    excerpt: record.excerpt || plain(html),
+    excerpt: record.excerpt || excerptFrom(html),
     author: record.author || "Nazia Firdous",
     publishedAt: record.publishedAt,
     updatedAt: record.updatedAt || record.publishedAt,

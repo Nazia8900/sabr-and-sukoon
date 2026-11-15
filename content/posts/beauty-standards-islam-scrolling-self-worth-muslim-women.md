@@ -2,7 +2,7 @@
 title: "Why Scrolling Makes You Feel Ugly: Islam's Answer to the Beauty Standard Trap\""
 date: "2026-06-29"
 updated_date: "2026-06-30"
-original_url: "https://www.sabrandsukoon.online/2026/06/beauty-standards-islam-scrolling-self-worth-muslim-women.html"
+original_url: "/blog/beauty-standards-islam-scrolling-self-worth-muslim-women"
 slug: "beauty-standards-islam-scrolling-self-worth-muslim-women"
 source: "feed.atom backup"
 ---

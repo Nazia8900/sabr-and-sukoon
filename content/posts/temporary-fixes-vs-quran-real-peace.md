@@ -2,7 +2,7 @@
 title: "Temporary Fixes vs. The Qur'an: Where Real Peace Actually Comes From"
 date: "2025-08-22"
 updated_date: "2026-08-05"
-original_url: "https://www.sabrandsukoon.online/2026/08/temporary-fixes-vs-quran-real-peace.html"
+original_url: "/blog/temporary-fixes-vs-quran-real-peace"
 slug: "temporary-fixes-vs-quran-real-peace"
 source: "feed.atom backup"
 ---
@@ -78,6 +78,3 @@ Related Posts:
 Finding Sukoon in a Tired World: Quranic Wisdom and Psychology
 💛 Sister, is there a specific verse that always brings you back to calm? Tell me in the comments — I read every single one.
 Disclaimer: This post is for reflection and general wellness purposes and is not a substitute for professional mental health advice. Quranic verses and hadith are cited from authenticated sources; please consult a qualified scholar for detailed religious rulings.
-💛 If this reflection brought you comfort, consider supporting Sabr and Sukoon so this work can continue reaching more hearts.
-JazzCash / EasyPaisa: 03287830412
-Every contribution, big or small, is a means of sadaqah jariyah for both of us. Jazak Allah Khair.
