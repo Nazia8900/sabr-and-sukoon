@@ -1,3 +1,7 @@
+---
+status: "draft"
+---
+
 # 7-Day Email Sequence
 
 ## Email 1 — Welcome
