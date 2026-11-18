@@ -5,6 +5,7 @@ updated_date: "2026-08-05"
 original_url: "/blog/the-islamic-way-of-dealing-with-stress"
 slug: "the-islamic-way-of-dealing-with-stress"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsE.../s1200/islamic-peace-thumbnail.webp"
 ---
 
 *🤲 Islamic Wellness · Inner Peace · Sukoon*
