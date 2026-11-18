@@ -5,6 +5,7 @@ updated_date: "2026-06-17"
 original_url: "/blog/muharram-1448-sacred-month-guide-for"
 slug: "muharram-1448-sacred-month-guide-for"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiofGAGVYF_FLdpXEAChVS8QO3XSMRmGGmx_Fq7HSqFs5WwJ6fdGNcQIwT7D4PL_0eM2c4lvu5SFEVgImcLD1nOirDjgarWXsnEDZ7pA5hoRSoD2_xfQUtkHvcTsdP5s5VlJlbJaRKBwcs39ycirh1gZ5QOtULDSSZ1F_DbnXcsJPdp3N1xE-KpKvpETvh7/s1200/ChatGPT%20Image%20Jun%2017,%202026,%2010_58_54%20PM.png"
 ---
 
 Muharram 1448: The Sacred Month Allah Calls His Own — A Complete Guide for Muslim Women  

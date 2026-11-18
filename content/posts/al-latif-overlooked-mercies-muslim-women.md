@@ -5,6 +5,7 @@ updated_date: "2026-07-05"
 original_url: "/blog/al-latif-overlooked-mercies-muslim-women"
 slug: "al-latif-overlooked-mercies-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ79wUrEf_hyphenhyphenZl0S9SsBee4lRlRg9XwOMbEerw1DlpBeoiiFy4nj_d5U6_AQriQ2-pML5HNPG8J73XmtpDMtHhuyDJPd9nx74qGu4Q1swuJtyM6kA9X_Yam9MvUrkNiWQZNZkKvJ8EZTxl1VgQAbBP9jnPvNcGzfuCRy2Ics7ZjJe5cWi3zpEe6xzT9KwE/s55-w430-c-h640/1000277638.webp"
 ---
 
 ✦ Asma-ul-Husna Series · Al-Latif

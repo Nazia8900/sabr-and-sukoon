@@ -5,6 +5,7 @@ updated_date: "2026-08-04"
 original_url: "/blog/al-karim-generosity-not-enough-muslim-women"
 slug: "al-karim-generosity-not-enough-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgob34cD0BJ22s5zGReA6RM0LJeHLsLrsxQ-G_sNpoQqGXWG-U_IITz0MXUuzWANI32ggSxP4OTMI3fz2McohUl9tUH7r4XcPFNwlG0jT_MifZxsvnHEZKlSCy_JnevgsU8MR8Wb8Jgb5nRf3wMQU-NOYwtKzgdatn1lf5hKgiH_k_EsyoEkwnH6B3RZLq2/s1200/1000291710.webp"
 ---
 
 *✦ Asma-ul-Husna Series · Al-Karim*

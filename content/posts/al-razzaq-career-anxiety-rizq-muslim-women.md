@@ -5,6 +5,7 @@ updated_date: "2026-07-02"
 original_url: "/blog/al-razzaq-career-anxiety-rizq-muslim-women"
 slug: "al-razzaq-career-anxiety-rizq-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUYm057v-htvVLJgs_9_LD-LR4V_Z-uQSv5ieFS0Mvx3s6MTDltgQrdky3usdA6cAQ_aNJfMJiGJewsUPjuRIJONGTUv4Ti6jV7BoLhvlf_8A1JNk65fqeN2-hajJGIBr9IfjC-FnqI9sFbj6imzorn7g27JQD8IR3uRmYwngwCzSdrDYmxOPWPsa6z-ji/s1200/1000275942.webp"
 ---
 
 Career Panic vs Al-Razzaq: Why Your Rizq Was Never Late

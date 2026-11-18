@@ -5,6 +5,7 @@ updated_date: "2026-07-14"
 original_url: "/blog/surah-al-baqarah-2-216-disappointment-mercy"
 slug: "surah-al-baqarah-2-216-disappointment-mercy"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglZNcl3lD4ZipDqPjtwuLzzY_brSC2EWfsSqmSb6ecfcmONAKgf1oRgFmQNhWNF6lcQmvjZJucL3b5zoRrL6Er1Oj9CqyChZ1QrQ87Pw2zq76Kk9Sdo3LbqDl_Pv2DMNqFcwWDKuRiONfMHV2DDd07oeBmpUwzXpddQN8VgtALct1hNFHk3ugeSk2ZLgrY/s1200/1000282226.webp"
 ---
 
 ✦ One Ayah Series · Surah Al-Baqarah 2:216

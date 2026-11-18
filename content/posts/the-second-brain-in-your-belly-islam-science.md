@@ -5,6 +5,7 @@ updated_date: "2026-07-21"
 original_url: "/blog/the-second-brain-in-your-belly-islam-science"
 slug: "the-second-brain-in-your-belly-islam-science"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwKW-9WaRXS43J0NidFm6PtoB2Eje5lNAJ4C1B_xlcV06cPCJCgvgBQI0fvtavWvldN-qxRNKH_lfEvc5vgoUtqpotLDUrV2wNAWiCXsQJbPS65swG_1pNN28sTAZOMa1KT9UqG7717-xEnInCYEtmXO1I4RaIXPV0RnurpbkMdJ4sDUkmreUqyxuPRHzS/s1200/1000285472.webp"
 ---
 
 Home

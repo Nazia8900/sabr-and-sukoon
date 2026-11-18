@@ -5,6 +5,7 @@ updated_date: "2026-07-22"
 original_url: "/blog/meditation-apps-vs-as-salam-real-peace"
 slug: "meditation-apps-vs-as-salam-real-peace"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCgFVnYlOpUSPiarS6kTmyS9OLDbuLq8TMeFv1Y2Bg1hc1rynWOrkpfhZAyRDZNubHi1OMt8QBYMQq8vWaP86ZygpLpesirCI5EFbTuGbyOmGgZW2Nw4Si2Nc_Nh198XgQaOhXe-KQsgHTlGXOljK2-asJ-jIGZbvWN5wTTgS_1pOLp7lwOLgMoDOam11h/s1200/1000286089.webp"
 ---
 
 Home

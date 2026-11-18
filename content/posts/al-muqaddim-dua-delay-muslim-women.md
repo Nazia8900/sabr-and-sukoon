@@ -5,6 +5,7 @@ updated_date: "2026-07-28"
 original_url: "/blog/al-muqaddim-dua-delay-muslim-women"
 slug: "al-muqaddim-dua-delay-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPgiGF6-Ek826Ea961LChla1WT72XQGw6_FqC26pUIeCBDGrwbTKEeKRgdBscZO4-FUxzLA33w9Ml_tzXcT_atdyQVeN6bEwlP9W4N439fKNzcxRMw0NRCKGHxayNrzoSbFPSAsKE8FzFgQZH0OkFYW3IXAtHXLamtdnBwD6yHED7zidh1N2UnJyoNqPlI/s1200/1000278819.webp"
 ---
 
 ✦ Asma-ul-Husna Series · Al-Muqaddim

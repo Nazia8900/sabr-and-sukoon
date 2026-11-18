@@ -5,6 +5,7 @@ updated_date: "2026-07-04"
 original_url: "/blog/al-wadud-self-worth-unloved-muslim-women"
 slug: "al-wadud-self-worth-unloved-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7pN2HevQk3gMBmlQtRdAEkDePZSM9NBxwmX1V34DCmgcw5zVCCptAItzA_JBW5WkXe-Ppoul3L96oWXvm6Vsk5oLEiO07NmK7NPVNN6SNJLw4rig28KFAqRQ6UN7DbxQ4hHQCSW1Uw7QZ5PbjxFKsEjnY1LF2NFWSuJXXT1r3zCuj3-NdA_GY22wP2b9U/s1200/1000277279.webp"
 ---
 
 Feeling Unlovable vs Al-Wadud: Why Allah's Love for You Never Wavers
