@@ -1,3 +1,7 @@
+---
+status: "draft"
+---
+
 # Thank You Page
 
 ## Your journal is on its way 🌿

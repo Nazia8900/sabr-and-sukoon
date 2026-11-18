@@ -1,4 +1,5 @@
 ---
+status: "draft"
 title: "7-Day Spiritual Peace & Tawakkul Journal"
 ---
 

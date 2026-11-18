@@ -1,3 +1,7 @@
+---
+status: "draft"
+---
+
 # Signup Page Copy
 
 ## Free 7-Day Spiritual Peace & Tawakkul Journal

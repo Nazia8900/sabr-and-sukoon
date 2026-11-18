@@ -1,3 +1,7 @@
+---
+status: "draft"
+---
+
 ## Free 7-Day Spiritual Peace & Tawakkul Journal
 
 Feeling overwhelmed by waiting, worrying, or overthinking?
