@@ -5,6 +5,7 @@ updated_date: "2026-06-30"
 original_url: "/blog/beauty-standards-islam-scrolling-self-worth-muslim-women"
 slug: "beauty-standards-islam-scrolling-self-worth-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9Ls4ekyBp175lcUb7q07Yg5eb8BALdToxti0fBFCO6NFy2WrkIGWWjGvZVtlcaenBkCWQeNH5ILWZnztZiRoXbL8ynL4TPCQueve7_NKy35yZ2BC1KmhYaPhQQPYJ_SWMqWAxkpS6BGNC4pHGC1DSIHqlajpajxoFOBuKZI-IxDN-GZAgL62VzRZp4-2q/s1200/1000274826.webp"
 ---
 
 Home

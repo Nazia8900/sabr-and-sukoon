@@ -5,6 +5,7 @@ updated_date: "2026-07-07"
 original_url: "/blog/ash-shafi-recovery-anxiety-muslim-women"
 slug: "ash-shafi-recovery-anxiety-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqdl1N31uYG7aEp1XC4XfKUb8507LkghvvGjDkg1YNyhQpPCXQOXRakogHywA8w4j90c4DfVsX9xo6mKAcaN7siKgD3OSOLqPEgx54xFdb4WlybKkqQvlOetNWpw5-058xG-jdyLJE4qjAxYnTycYk_k9V4A0fTEovJrWOTyGdZdsUqF3kw7okeU7J1aYj/s1200/1000278128.webp"
 ---
 
 ✦ Asma-ul-Husna Series · Ash-Shafi

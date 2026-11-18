@@ -5,6 +5,7 @@ updated_date: "2026-07-12"
 original_url: "/blog/surah-at-talaq-way-out-rizq-muslim-women"
 slug: "surah-at-talaq-way-out-rizq-muslim-women"
 source: "feed.atom backup"
+cover: "https://i.ytimg.com/vi/R_DvVTClUm8/hqdefault.jpg"
 ---
 
 ✦ One Ayah Series · Surah At-Talaq 65:2-3

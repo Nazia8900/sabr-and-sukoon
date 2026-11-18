@@ -5,6 +5,7 @@ updated_date: "2026-06-23"
 original_url: "/blog/toxic-positivity-vs-alhamdulillah"
 slug: "toxic-positivity-vs-alhamdulillah"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPabcxsbXIGGB8YTIT32fCnEg-QFJ8JU6JX_ImvFGFd4j7T19C6-inXwE7vFjESxiLnK-PlEmUUCE39By-3ronZLbYuUM1tss6rtyxmjkbGF2FIe_NvKUyBMvct4ZUNTrDYQnR_xIEpUsZYmYP6Nm9n3B4J0m9jSdH6s4Fnsl81ULmrNU36dG7Hz73ETro/s1200/Gemini_Generated_Image_fmmw9afmmw9afmmw.png"
 ---
 
 Home

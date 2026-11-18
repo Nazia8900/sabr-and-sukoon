@@ -5,6 +5,7 @@ updated_date: "2026-06-22"
 original_url: "/blog/digital-detox-vs-khushu"
 slug: "digital-detox-vs-khushu"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh1rDokdqOIptzkLzkbt7zGldqJ4OcR9691WxbCGAIT8NVL8uXeMUS-CjyvGYxHz6z83zjsjetE505niuCbR4m42qCprFhzimIM8WgEpC4d_iaaiXgC4OY8gaxrG_u02GBJBKkOnfFyeEYUUwBOmjJbTm00sMWM7v869g7UwfY3KDz8ttExb80JRVUzTgI/s1200/1000272092.png"
 ---
 
 Home

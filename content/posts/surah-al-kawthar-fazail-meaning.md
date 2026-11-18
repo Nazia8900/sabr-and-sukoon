@@ -5,6 +5,7 @@ updated_date: "2026-07-25"
 original_url: "/blog/surah-al-kawthar-fazail-meaning"
 slug: "surah-al-kawthar-fazail-meaning"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi9cCjZeb8h5P6wk5tXVmRUs6Ql9Lzotr-NVlmqiZYvLvZlirG-Bq1Vi3Hxed6cAW6Kvy1mykb0bX6YBls3UgRq-RAZgIf0raVtaAyW15F3OX6s_TVi-3utbch753lfDRCH-Y21MiC_adZXz2o8yiK1e_TI0YZywoBRo8JJP4hol-Wo4dJU0xFZ3YaFzh0/s1200/1000287404.webp"
 ---
 
 Home

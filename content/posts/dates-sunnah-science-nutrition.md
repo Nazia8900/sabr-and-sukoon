@@ -5,6 +5,7 @@ updated_date: "2026-08-06"
 original_url: "/blog/dates-sunnah-science-nutrition"
 slug: "dates-sunnah-science-nutrition"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLM1pmj5YBKz6U5JLmT8YKXMWViuuLfFSuzPRXzdnjU7tSqQd1xq3qW9EWCpltUf7mjfq4QZVU4DXLAbDdaUEkRfhB9h_tyvC8oYX5eI4BDqBpAIfyQ9cEKsr2SuhnHZ1EGemmngZ_ZD0CK6Wxi05rv-Wx9VsI-QLV4jTPLVf_tJh3nPREkY4Qf1FxWIxM/s1200/1000282655.webp"
 ---
 
 Home

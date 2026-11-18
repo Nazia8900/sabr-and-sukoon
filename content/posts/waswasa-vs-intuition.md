@@ -5,6 +5,7 @@ updated_date: "2026-06-25"
 original_url: "/blog/waswasa-vs-intuition"
 slug: "waswasa-vs-intuition"
 source: "feed.atom backup"
+cover: "https://i.ytimg.com/vi/9eGF3ps3_ds/hqdefault.jpg"
 ---
 
 📍

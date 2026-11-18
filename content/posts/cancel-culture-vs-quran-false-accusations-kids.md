@@ -5,6 +5,7 @@ updated_date: "2026-07-24"
 original_url: "/blog/cancel-culture-vs-quran-false-accusations-kids"
 slug: "cancel-culture-vs-quran-false-accusations-kids"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjilOKNGGmFN32X_kqnluFWTCg_eGFbDh0AARAZ8ChvOPMZKZnkAJRp3BEph_AjBA1Vp32iYcw0yGiabyTYFW_k0XBcVW_PVu2LH8qWaAfgsUkCUO0Mn717DSWRrBucKjlTTOndim052l1zLcX_qkfmWBqTAlbtbAVjMV12NVB65CpaLPeMt9gRbOfe-CWZ/s1200/1000286952.webp"
 ---
 
 Home

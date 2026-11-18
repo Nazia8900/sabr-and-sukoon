@@ -5,6 +5,7 @@ updated_date: "2026-07-16"
 original_url: "/blog/surah-yusuf-12-87-losing-hope-muslim-women"
 slug: "surah-yusuf-12-87-losing-hope-muslim-women"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga1HCRnjXH89EPN6UtI2OW-w8GNc1xPNrfrobdZB4V56fpRqZPaGAc_UyGzxU0IYOjSluFO-4aQKBKzQoQepwDB1xCYl-h4uIkzO4uJsr5W6ddqcMNpDOcjo5FD1lQFnWXNpJAbImV6Hc4bcz-4odcsPb0IEYDt75kpoabgskBVPnTSRmrVTDXi72k8faJ/s1200/1000283042.webp"
 ---
 
 ✦ One Ayah Series · Surah Yusuf 12:87

@@ -5,6 +5,7 @@ updated_date: "2026-07-13"
 original_url: "/blog/qailulah-sunnah-nap-science"
 slug: "qailulah-sunnah-nap-science"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0_iszvF69e9OGMIlXrrAFv3eDtyTxoEznatWkUPcGPNyFkU9TdKXdJ9_cW9xoeAgBWcHqvR6Lna0w1xxM7J46xxKmsPTEyEJyI-Ew4WIudYWkU1gwEaV7ZKQB6Th8sICjFf5rgsQrtGVKYwkfbmMJ7DdR2CmHLTrcZ0mbskQT6ned2GIlacaqvAbTOA3k/s55-w269-c-h400/1000281714.webp"
 ---
 
 ✦ The Science Behind the Sunnah · Qailulah

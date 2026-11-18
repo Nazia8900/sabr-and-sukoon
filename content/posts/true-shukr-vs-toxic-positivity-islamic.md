@@ -5,6 +5,7 @@ updated_date: "2026-06-19"
 original_url: "/blog/true-shukr-vs-toxic-positivity-islamic"
 slug: "true-shukr-vs-toxic-positivity-islamic"
 source: "feed.atom backup"
+cover: "https://i.ytimg.com/vi/EPo_gbqsiKs/hqdefault.jpg"
 ---
 
 Home

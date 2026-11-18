@@ -5,6 +5,7 @@ updated_date: "2026-08-05"
 original_url: "/blog/when-you-dont-get-what-you-want-al"
 slug: "when-you-dont-get-what-you-want-al"
 source: "feed.atom backup"
+cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3LOgmVr0tG49qwSD158YzfvOrDFL4hwLR82bzHETUeD6X3TpmDCzVxjOPHNPaBZn8krfu9sH5GEPZzGh0SExSy3Iq7Apa0ARS4yTVRuHcc45cQH0AXUKBw5s9Ej9lTGIrPPGGIIbpnHtO09SGUBCghSUUh4i_NEZhsAUNW110kii-eCCeseQlMOTYiuoO/s1200/1000292278.webp"
 ---
 
 ✦ Asma-ul-Husna Series · Al-Wahhab
