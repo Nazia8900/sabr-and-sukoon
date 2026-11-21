@@ -208,3 +208,41 @@ export async function deleteEditorPost(slug: string): Promise<"deleted" | "unpub
   invalidatePostsCache();
   return "deleted";
 }
+
+export type ShadowedPost = {
+  slug: string;
+  title: string;
+  status: string;
+  updatedAt: string;
+};
+
+/**
+ * Saved (admin) copies that sit on top of a repository article. While one
+ * exists, the public site shows it instead of the file in GitHub.
+ */
+export async function listShadowedPosts(): Promise<ShadowedPost[]> {
+  const fileSlugs = new Set(getAllFilePostMeta().map((p) => p.slug));
+  const stored = await listStoredPosts();
+  return stored
+    .filter((r) => fileSlugs.has(r.slug))
+    .map((r) => ({
+      slug: r.slug,
+      title: r.title,
+      status: r.status,
+      updatedAt: r.updatedAt,
+    }));
+}
+
+/**
+ * Drop the saved copy of a migrated article so the version in the repository
+ * shows again. Returns false when there is nothing to revert.
+ */
+export async function revertEditorPost(slug: string): Promise<boolean> {
+  const hasRepoFile = getAllFilePostMeta().some((p) => p.slug === slug);
+  if (!hasRepoFile) return false;
+  const stored = await getStoredPost(slug);
+  if (!stored) return false;
+  await deleteStoredPost(slug);
+  invalidatePostsCache();
+  return true;
+}
