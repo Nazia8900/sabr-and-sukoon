@@ -213,7 +213,7 @@ export type ShadowedPost = {
   slug: string;
   title: string;
   status: string;
-  updatedAt: string;
+  updatedAt: string | null;
 };
 
 /**

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-type Item = { slug: string; title: string; status: string; updatedAt: string };
+type Item = { slug: string; title: string; status: string; updatedAt: string | null };
 
 export default function RevertPage() {
   const [items, setItems] = useState<Item[] | null>(null);
