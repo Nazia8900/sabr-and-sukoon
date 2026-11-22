@@ -7,7 +7,6 @@ const LINKS = [
   { href: "/admin", label: "Dashboard", exact: true },
   { href: "/admin/posts", label: "Posts" },
   { href: "/admin/drafts", label: "Automation" },
-  { href: "/admin/revert", label: "Revert" },
 ];
 
 export default function AdminNav() {
